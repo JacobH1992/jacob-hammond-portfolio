@@ -1,4 +1,5 @@
 <?php
+# Backend framework by http://jalproductions.co.uk/
 
 $q = $_GET['q'];
 
