@@ -1,22 +1,21 @@
 p {
-    font-size: 1em;
+    @include adjust-font-size-to(12px);
 }
 
 h1 {
-    font-size: 4.096em;
+    @include adjust-font-size-to(62px);
 }
 
 h2 {
-    font-size: 2.56em;
+    @include adjust-font-size-to(42px);
 }
 
 h3 {
-    font-size: 1.6em;
+    @include adjust-font-size-to(24px);
 }
 
 a {
-    font-size: 1em;
-    font-weight: 600;
     @include hover-link;
     @include link-colors(green, green, green, green, green);
+    font-weight: 600;
 }

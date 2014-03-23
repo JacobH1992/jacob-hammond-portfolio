@@ -54,33 +54,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-body {
-  font-family: 'Roboto', Arial, Sans-Serif;
+* html {
+  font-size: 100%;
+}
+
+html {
   font-size: 16px;
-  font-weight: 300;
+  line-height: 0.375em;
+}
+
+html {
+  line-height: 1.5em;
+  font-family: 'Roboto', Arial, Sans-Serif;
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.75em;
+  line-height: 1.5em;
 }
 
 h1 {
-  font-size: 4.096em;
+  font-size: 3.875em;
+  line-height: 1.06452em;
 }
 
 h2 {
-  font-size: 2.56em;
+  font-size: 2.625em;
+  line-height: 1.14286em;
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: 1.5em;
+  line-height: 1.25em;
 }
 
 a {
-  font-size: 1em;
-  font-weight: 600;
   text-decoration: none;
   color: green;
+  font-weight: 600;
 }
 a:hover {
   text-decoration: underline;
