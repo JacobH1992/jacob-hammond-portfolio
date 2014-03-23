@@ -69,23 +69,18 @@ html {
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 1em;
   line-height: 1.5em;
 }
 
 h1 {
-  font-size: 3.875em;
-  line-height: 1.06452em;
+  font-size: 4.5em;
+  line-height: 1.08333em;
 }
 
 h2 {
   font-size: 2.625em;
   line-height: 1.14286em;
-}
-
-h3 {
-  font-size: 1.5em;
-  line-height: 1.25em;
 }
 
 a {
