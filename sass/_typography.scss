@@ -1,0 +1,22 @@
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 4.096em;
+}
+
+h2 {
+    font-size: 2.56em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+a {
+    font-size: 1em;
+    font-weight: 600;
+    @include hover-link;
+    @include link-colors(green, green, green, green, green);
+}
