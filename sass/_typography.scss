@@ -1,8 +1,20 @@
+@import url("//hello.myfonts.net/count/2a6c8a");
+@font-face {
+    font-family: 'GistRoughLightThree';
+    src: url('/fonts/GistRoughLightThree.eot');
+    src: url('/fonts/GistRoughLightThree.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/GistRoughLightThree.woff') format('woff'),
+    url('/fonts/GistRoughLightThree.ttf') format('truetype'),
+    url('/fonts/GistRoughLightThree.svg#wf') format('svg');
+}
+
 p {
     @include adjust-font-size-to(16px);
 }
 
 h1 {
+    font-family: 'GistRoughLightThree';
+    font-weight: 200;
     @include adjust-font-size-to(72px);
 }
 
