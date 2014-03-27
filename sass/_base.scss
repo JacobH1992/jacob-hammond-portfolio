@@ -1,8 +1,30 @@
+@import "compass";
+@import "compass/layout";
+@import "compass/reset";
+
+@import url("//hello.myfonts.net/count/2a6c8a");
+@font-face {
+    font-family: 'GistRoughLightThree';
+    src: url('/fonts/GistRoughLightThree.eot');
+    src: url('/fonts/GistRoughLightThree.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/GistRoughLightThree.woff') format('woff'),
+    url('/fonts/GistRoughLightThree.ttf') format('truetype'),
+    url('/fonts/GistRoughLightThree.svg#wf') format('svg');
+}
+
+// Font weights
+$light: 200;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: 'Roboto', Arial, Sans-Serif;
+$base-font-weight: $regular;
 $base-font-size: 16px;
 $base-line-height: 6px;
-@include establish-baseline;
 
-html {
-  @include adjust-leading-to(4);
-  font-family: 'Roboto', Arial, Sans-Serif;
-}
+// Header Font 
+$header-font-family:  'GistRoughLightThree';
+
+$trans-s: .3s;
+$trans-l: .6s;

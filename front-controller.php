@@ -13,4 +13,6 @@ if(empty($path)) {                                  // HOME
     $file = '404';
 }
 
+$isHome               = ($q == '');
+
 require_once('front-view.php');

@@ -1,0 +1,17 @@
+#index-header {
+    height: 800px;
+    background-position: center;
+    z-index: 0;
+    transition: opacity .8s;
+    color: $white;
+    background: url(/images/bg.jpg) #1e435d;
+    background-size: cover;
+}
+
+#index-header-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -93px;
+    margin-left: -501px;
+}

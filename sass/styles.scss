@@ -1,6 +1,10 @@
-@import "compass";
-@import "compass/reset";
 @import "base";
 
-@import "main";
+@import "breakpoints";
+@import "colours";
 @import "typography";
+
+@import "nav";
+@import "main";
+
+@import "page-index";
