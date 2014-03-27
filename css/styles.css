@@ -68,13 +68,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .white {
-  color: #333333;
+  color: #222222;
   background: white;
 }
 
 .blue {
   color: white;
   background: #1e435d;
+}
+
+.yellow {
+  color: #222222;
+  background: #f8ebb4;
 }
 
 .lgrey {
@@ -95,21 +100,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 p {
   font-size: 1em;
   line-height: 1.5em;
+  font-weight: 200;
 }
 
 h1 {
-  font-size: 2.625em;
-  line-height: 1.14286em;
+  font-size: 3.25em;
+  line-height: 1.15385em;
+  margin-bottom: 40px;
 }
 
 h2 {
-  font-size: 1.375em;
-  line-height: 1.36364em;
+  font-family: "modumregular";
+  font-size: 2em;
+  line-height: 1.125em;
+  margin-bottom: 40px;
+  max-width: 860px;
 }
 
 h3 {
-  font-size: 1.125em;
-  line-height: 1.33333em;
+  font-size: 1.375em;
+  line-height: 1.36364em;
 }
 
 a {
@@ -131,8 +141,8 @@ a:active {
 
 @media (min-width: 640px) {
   p {
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1.25em;
+    line-height: 1.2em;
   }
 
   h1 {
@@ -148,6 +158,107 @@ a:active {
   h3 {
     font-size: 2em;
     line-height: 1.125em;
+  }
+}
+.half,
+.third {
+  width: 100%;
+  float: left;
+}
+
+.half-margin {
+  width: 100%;
+  float: left;
+}
+
+.third-margin {
+  width: 100%;
+  float: left;
+}
+
+.three-quarters {
+  width: 50%;
+  float: left;
+}
+
+@media (min-width: 640px) {
+  .half {
+    width: 50%;
+  }
+
+  .half-margin {
+    width: 49%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .half-margin:first-of-type {
+    margin-left: 0;
+  }
+
+  .half-margin:last-of-type {
+    margin-right: 0;
+  }
+
+  .third {
+    width: 33.33333%;
+  }
+
+  .third-margin {
+    width: 32.33333%;
+    margin-left: .5%;
+    margin-right: .5%;
+  }
+
+  .third-margin:first-of-type {
+    margin-left: 0;
+    margin-right: 1%;
+  }
+
+  .third-margin:last-of-type {
+    margin-left: 1%;
+    margin-right: 0;
+  }
+
+  p.third {
+    width: 100%;
+  }
+
+  p.third-margin {
+    width: 97%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  p.third-margin:first-of-type {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  p.third-margin:last-of-type {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 800px) {
+  p.third {
+    width: 33.33333%;
+  }
+
+  p.third-margin {
+    width: 32.33333%;
+    margin-left: .5%;
+    margin-right: .5%;
+  }
+
+  p.third-margin:first-of-type {
+    margin-left: 0;
+    margin-right: 1%;
+  }
+
+  p.third-margin:last-of-type {
+    margin-left: 1%;
+    margin-right: 0;
   }
 }
 nav {
@@ -253,6 +364,7 @@ nav a:active, nav a:focus {
 html {
   font-family: "Roboto", Arial, Sans-Serif;
   line-height: 1.5em;
+  color: #1e435d;
 }
 html * html {
   font-size: 100%;
@@ -263,17 +375,28 @@ html html {
 }
 
 main {
+  width: 100%;
   position: relative;
-  height: 1000px;
   z-index: 1;
 }
 
-header {
-  font-family: "modumregular";
-}
 header h1 {
   font-size: 2.625em;
   line-height: 1.14286em;
+}
+
+section > div {
+  overflow: hidden;
+}
+
+.align-center {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 80px 40px;
 }
 
 .checkbox-hack {
@@ -299,14 +422,14 @@ header h1 {
     font-size: 5.125em;
     line-height: 1.09756em;
   }
+
+  .section-padding {
+    padding: 120px 40px;
+  }
 }
 #index-header {
-  height: 800px;
+  height: 1000px;
   background-position: center;
-  z-index: 0;
-  transition: opacity .8s;
-  color: white;
-  background: url(/images/bg.jpg) center #1e435d;
   background-size: cover;
 }
 
@@ -315,11 +438,14 @@ header h1 {
   max-width: 1200px;
   position: absolute;
   top: 50%;
-  margin-top: -160px;
+  margin-top: -190px;
   padding: 40px;
 }
 #index-header-text h1 {
-  padding: 20px 0;
+  padding: 40px 0;
+}
+#index-header-text h1, #index-header-text h2 {
+  margin: 0;
 }
 
 @media (min-width: 1200px) {
@@ -327,4 +453,7 @@ header h1 {
     left: 50%;
     margin-left: -600px;
   }
+}
+footer {
+  height: 500px;
 }

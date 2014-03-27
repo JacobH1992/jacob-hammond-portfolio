@@ -6,19 +6,33 @@ html {
     font-family: $base-font-family;
     @include establish-baseline(16px);
     @include adjust-leading-to(4);
+    color: $blue;
 }
 
 main {
+    width: 100%;
     position: relative;
-    height: 1000px;
     z-index: 1;
 }
 
 header {
-    font-family: $header-font-family;
     h1 {
         @include adjust-font-size-to(42px);
     }
+}
+
+section > div {
+    overflow: hidden;
+}
+
+.align-center {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 80px 40px;
 }
 
 .checkbox-hack {
@@ -38,5 +52,8 @@ header {
         h1 {
             @include adjust-font-size-to(82px);
         }
+    }
+    .section-padding {
+        padding: 120px 40px;
     }
 }

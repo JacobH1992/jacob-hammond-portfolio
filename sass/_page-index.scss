@@ -1,10 +1,7 @@
 #index-header {
-    height: 800px;
+    height: 1000px;
+    // background: url(/images/bg.jpg) center $blue;
     background-position: center;
-    z-index: 0;
-    transition: opacity .8s;
-    color: $white;
-    background: url(/images/bg.jpg) center $blue;
     background-size: cover;
 }
 
@@ -13,10 +10,13 @@
     max-width: 1200px;
     position: absolute;
     top: 50%;
-    margin-top: -160px;
+    margin-top: -190px;
     padding: 40px;
     h1 {
-        padding: 20px 0;
+        padding: 40px 0;
+    }
+    h1, h2 {
+        margin: 0;
     }
 }
 

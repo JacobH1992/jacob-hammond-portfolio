@@ -4,15 +4,21 @@ $mgrey: #999;
 $dgrey: #333;
 $sdgrey: #222;
 $blue: #1e435d;
+$yellow: #f8ebb4;
 
 .white {
-    color: $dgrey;
+    color: $sdgrey;
     background: $white;
 }
 
 .blue {
     color: $white;
     background: $blue;
+}
+
+.yellow {
+    color: $sdgrey;
+    background: $yellow;
 }
 
 .lgrey {

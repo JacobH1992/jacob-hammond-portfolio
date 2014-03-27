@@ -1,1 +1,1 @@
-<h1>Footer</h1>
+<footer class="blue"><h1>Footer</h1></footer>

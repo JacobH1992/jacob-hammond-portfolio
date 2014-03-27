@@ -1,17 +1,22 @@
 p {
     @include adjust-font-size-to(16px);
+    font-weight: 200;
 }
 
 h1 {
-    @include adjust-font-size-to(42px);
+    @include adjust-font-size-to(52px);
+    margin-bottom: 40px;
 }
 
 h2 {
-    @include adjust-font-size-to(22px);
+    font-family: $header-font-family;
+    @include adjust-font-size-to(32px);
+    margin-bottom: 40px;
+    max-width: 860px;
 }
 
 h3 {
-    @include adjust-font-size-to(18px);
+    @include adjust-font-size-to(22px);
 }  
 
 a {
@@ -19,10 +24,9 @@ a {
     font-weight: 600;
 }
 
-
 @media ($min_bp_a) {
     p {
-        @include adjust-font-size-to(16px);
+        @include adjust-font-size-to(20px);
     }
 
     h1 {
