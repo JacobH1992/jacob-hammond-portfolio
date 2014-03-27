@@ -17,6 +17,26 @@ main {
 header {
     font-family: $header-font-family;
     h1 {
-        @include adjust-font-size-to(82px);
+        @include adjust-font-size-to(42px);
+    }
+}
+
+.checkbox-hack {
+    display: none;
+}
+
+// http://precisepixels.co.uk/blog/2014/01/30/checkbox-hack-problem-with-android-2-3/
+.force-repaint { -webkit-animation: force-repaint infinite 1s; }
+
+@-webkit-keyframes force-repaint {
+    from { fill: 0; }
+    to   { fill: 0; }
+}
+
+@media ($min_bp_a) {
+    header {
+        h1 {
+            @include adjust-font-size-to(82px);
+        }
     }
 }

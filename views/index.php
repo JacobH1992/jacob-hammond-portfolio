@@ -1,8 +1,8 @@
 <header id="index-header">
-    <div id="index-header-align"> 
-        <h2>MY NAME IS</h2>
-        <h1>JACOB HAMMOND</h1>
-        <h2>I AM A <em>MULTIMEDIA DESIGNER</em></h2>
+    <div id="index-header-text"> 
+        <h2>My name is</h2>
+        <h1>Jacob Hammond</h1>
+        <h2>I am passionate about beautiful and functional design</h2>
     </div>
 </header>
 

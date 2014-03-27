@@ -3,18 +3,24 @@ nav {
     height: 100px;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     padding-right: 40px;
-    color: $mgrey;
-    @include transition(color, $trans-s);
     ul {
-        float: right;
-        @include horizontal-list-container;
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        top: 100px;
+        right: -50%;
+        text-align: right;
+        background: $white;
     }
     li {
-        @include horizontal-list-item(20px, left);
         line-height: 100px;
         font-weight: 600;
+        padding: 0 40px;
+    }
+    a {
+        @include unstyled-link;
     }
 }
 
@@ -25,7 +31,40 @@ nav {
         @include adjust-font-size-to(42px);
         line-height: 100px;
     }
-    &:hover {
-        background: $lgrey;
+}
+
+#site-nav-btn {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    z-index: 4;
+}
+
+#site-nav-toggle:checked + #site-nav {
+    right: 0;
+}
+
+@media ($min_bp_a) {
+    nav {
+        ul {
+            width: auto;
+            position: relative;
+            top: auto;
+            right: auto;
+            float: right;
+            @include horizontal-list-container;
+        }
+        li {
+            @include horizontal-list-item(20px, left);
+        }
+    }
+
+    #site-nav-btn {
+        display: none;
     }
 }

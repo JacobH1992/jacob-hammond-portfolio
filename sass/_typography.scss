@@ -3,15 +3,37 @@ p {
 }
 
 h1 {
-    @include adjust-font-size-to(62px);
-}
-
-h2 {
     @include adjust-font-size-to(42px);
 }
 
+h2 {
+    @include adjust-font-size-to(22px);
+}
+
+h3 {
+    @include adjust-font-size-to(18px);
+}  
+
 a {
-    @include hover-link;
-    @include link-colors($dgrey, $dgrey, $dgrey, $dgrey, $dgrey);
+    @include link-colors($sdgrey, $mgrey, $dgrey, $dgrey, $dgrey);
     font-weight: 600;
+}
+
+
+@media ($min_bp_a) {
+    p {
+        @include adjust-font-size-to(16px);
+    }
+
+    h1 {
+        @include adjust-font-size-to(62px);
+    }
+
+    h2 {
+        @include adjust-font-size-to(42px);
+    }
+
+    h3 {
+        @include adjust-font-size-to(32px);
+    }
 }

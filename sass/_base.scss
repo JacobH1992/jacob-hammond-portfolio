@@ -12,6 +12,15 @@
     url('/fonts/GistRoughLightThree.svg#wf') format('svg');
 }
 
+@font-face {
+    font-family: 'modumregular';
+    src: url('/fonts/modum_regular_regular-webfont.eot');
+    src: url('/fonts/modum_regular_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/modum_regular_regular-webfont.woff') format('woff'),
+         url('/fonts/modum_regular_regular-webfont.ttf') format('truetype'),
+         url('/fonts/modum_regular_regular-webfont.svg#modumregular') format('svg');
+}
+
 // Font weights
 $light: 200;
 $regular: 400;
@@ -24,7 +33,7 @@ $base-font-size: 16px;
 $base-line-height: 6px;
 
 // Header Font 
-$header-font-family:  'GistRoughLightThree';
+$header-font-family:  'modumregular';
 
 $trans-s: .3s;
 $trans-l: .6s;
