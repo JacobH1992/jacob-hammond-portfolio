@@ -7,22 +7,38 @@
 
 #index-header-text {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     position: absolute;
     top: 50%;
-    margin-top: -190px;
+    margin-top: -200px;
     padding: 40px;
-    h1 {
-        padding: 40px 0;
+}
+
+#index-about {
+    p {
+        margin-bottom: 20px;
     }
-    h1, h2 {
-        margin: 0;
+}
+
+.list {
+    margin-bottom: 40px;
+}
+
+@media ($min_bp_a) {
+    #index-about {
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .list {
+        margin-bottom: 0;
     }
 }
 
 @media ($min_bp_c) {
     #index-header-text {
         left: 50%;
-        margin-left: -600px;
+        margin-left: -500px;
     }
 }

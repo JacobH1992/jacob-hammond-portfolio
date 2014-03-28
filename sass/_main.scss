@@ -2,6 +2,10 @@
     @include box-sizing(border-box);
 }
 
+* > :last-child { 
+    margin-bottom: 0 !important; 
+}
+
 html {
     font-family: $base-font-family;
     @include establish-baseline(16px);
@@ -27,7 +31,7 @@ section > div {
 
 .align-center {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 

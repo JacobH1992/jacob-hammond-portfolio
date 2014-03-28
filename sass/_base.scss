@@ -5,20 +5,20 @@
 @import url("//hello.myfonts.net/count/2a6c8a");
 @font-face {
     font-family: 'GistRoughLightThree';
-    src: url('/fonts/GistRoughLightThree.eot');
-    src: url('/fonts/GistRoughLightThree.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/GistRoughLightThree.woff') format('woff'),
-    url('/fonts/GistRoughLightThree.ttf') format('truetype'),
-    url('/fonts/GistRoughLightThree.svg#wf') format('svg');
+    src: url('../fonts/GistRoughLightThree.eot');
+    src: url('../fonts/GistRoughLightThree.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GistRoughLightThree.woff') format('woff'),
+    url('../fonts/GistRoughLightThree.ttf') format('truetype'),
+    url('../fonts/GistRoughLightThree.svg#wf') format('svg');
 }
 
 @font-face {
     font-family: 'modumregular';
-    src: url('/fonts/modum_regular_regular-webfont.eot');
-    src: url('/fonts/modum_regular_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/modum_regular_regular-webfont.woff') format('woff'),
-         url('/fonts/modum_regular_regular-webfont.ttf') format('truetype'),
-         url('/fonts/modum_regular_regular-webfont.svg#modumregular') format('svg');
+    src: url('../fonts/modum_regular_regular-webfont.eot');
+    src: url('../fonts/modum_regular_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/modum_regular_regular-webfont.woff') format('woff'),
+         url('../fonts/modum_regular_regular-webfont.ttf') format('truetype'),
+         url('../fonts/modum_regular_regular-webfont.svg#modumregular') format('svg');
 }
 
 // Font weights
@@ -33,7 +33,7 @@ $base-font-size: 16px;
 $base-line-height: 6px;
 
 // Header Font 
-$header-font-family:  'modumregular';
+$header-font-family: 'modumregular';
 
 $trans-s: .3s;
 $trans-l: .6s;

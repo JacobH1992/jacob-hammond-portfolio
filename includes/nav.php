@@ -1,5 +1,5 @@
-<nav class="white">
-    <a href="/"><div id="nav-logo"><h1>JH</h1></div></a>
+<nav>
+    <div id="nav-logo"><a href="/"><h1>JH</h1></a></div>
     <label for="site-nav-toggle" id="site-nav-btn">=</label>
     <input type="checkbox" id="site-nav-toggle" class="checkbox-hack" autocomplete="off"/>
     <ul id="site-nav">

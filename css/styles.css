@@ -57,14 +57,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @font-face {
   font-family: 'GistRoughLightThree';
-  src: url("/fonts/GistRoughLightThree.eot");
-  src: url("/fonts/GistRoughLightThree.eot?#iefix") format("embedded-opentype"), url("/fonts/GistRoughLightThree.woff") format("woff"), url("/fonts/GistRoughLightThree.ttf") format("truetype"), url("/fonts/GistRoughLightThree.svg#wf") format("svg");
+  src: url("../fonts/GistRoughLightThree.eot");
+  src: url("../fonts/GistRoughLightThree.eot?#iefix") format("embedded-opentype"), url("../fonts/GistRoughLightThree.woff") format("woff"), url("../fonts/GistRoughLightThree.ttf") format("truetype"), url("../fonts/GistRoughLightThree.svg#wf") format("svg");
 }
 
 @font-face {
   font-family: 'modumregular';
-  src: url("/fonts/modum_regular_regular-webfont.eot");
-  src: url("/fonts/modum_regular_regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/modum_regular_regular-webfont.woff") format("woff"), url("/fonts/modum_regular_regular-webfont.ttf") format("truetype"), url("/fonts/modum_regular_regular-webfont.svg#modumregular") format("svg");
+  src: url("../fonts/modum_regular_regular-webfont.eot");
+  src: url("../fonts/modum_regular_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/modum_regular_regular-webfont.woff") format("woff"), url("../fonts/modum_regular_regular-webfont.ttf") format("truetype"), url("../fonts/modum_regular_regular-webfont.svg#modumregular") format("svg");
 }
 
 .white {
@@ -111,8 +111,8 @@ h1 {
 
 h2 {
   font-family: "modumregular";
-  font-size: 2em;
-  line-height: 1.125em;
+  font-size: 1.625em;
+  line-height: 1.15385em;
   margin-bottom: 40px;
   max-width: 860px;
 }
@@ -139,10 +139,10 @@ a:active {
   color: #333333;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 800px) {
   p {
-    font-size: 1.25em;
-    line-height: 1.2em;
+    font-size: 1.125em;
+    line-height: 1.33333em;
   }
 
   h1 {
@@ -263,25 +263,26 @@ a:active {
 }
 nav {
   width: 100%;
-  height: 100px;
+  height: 60px;
   position: fixed;
   top: 0;
-  z-index: 2;
   padding-right: 40px;
+  background: #eeeeee;
+  z-index: 2;
 }
 nav ul {
   width: 50%;
   height: 100%;
   position: fixed;
-  top: 100px;
+  top: 60px;
   right: -50%;
+  background: #eeeeee;
   text-align: right;
-  background: white;
 }
 nav li {
-  line-height: 100px;
-  font-weight: 600;
   padding: 0 40px;
+  font-weight: 600;
+  line-height: 60px;
 }
 nav a {
   color: inherit;
@@ -299,7 +300,7 @@ nav a:active, nav a:focus {
 #nav-logo h1 {
   font-size: 2.625em;
   line-height: 1.14286em;
-  line-height: 100px;
+  line-height: 60px;
 }
 
 #site-nav-btn {
@@ -310,7 +311,7 @@ nav a:active, nav a:focus {
   display: block;
   cursor: pointer;
   text-align: center;
-  line-height: 100px;
+  line-height: 60px;
   z-index: 4;
 }
 
@@ -361,6 +362,10 @@ nav a:active, nav a:focus {
   box-sizing: border-box;
 }
 
+* > :last-child {
+  margin-bottom: 0 !important;
+}
+
 html {
   font-family: "Roboto", Arial, Sans-Serif;
   line-height: 1.5em;
@@ -391,7 +396,7 @@ section > div {
 
 .align-center {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -435,23 +440,34 @@ section > div {
 
 #index-header-text {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   position: absolute;
   top: 50%;
-  margin-top: -190px;
+  margin-top: -200px;
   padding: 40px;
 }
-#index-header-text h1 {
-  padding: 40px 0;
-}
-#index-header-text h1, #index-header-text h2 {
-  margin: 0;
+
+#index-about p {
+  margin-bottom: 20px;
 }
 
+.list {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 640px) {
+  #index-about p {
+    margin-bottom: 0;
+  }
+
+  .list {
+    margin-bottom: 0;
+  }
+}
 @media (min-width: 1200px) {
   #index-header-text {
     left: 50%;
-    margin-left: -600px;
+    margin-left: -500px;
   }
 }
 footer {

@@ -10,7 +10,7 @@ h1 {
 
 h2 {
     font-family: $header-font-family;
-    @include adjust-font-size-to(32px);
+    @include adjust-font-size-to(26px);
     margin-bottom: 40px;
     max-width: 860px;
 }
@@ -24,9 +24,9 @@ a {
     font-weight: 600;
 }
 
-@media ($min_bp_a) {
+@media ($min_bp_b) {
     p {
-        @include adjust-font-size-to(20px);
+        @include adjust-font-size-to(18px);
     }
 
     h1 {
