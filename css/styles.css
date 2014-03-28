@@ -104,8 +104,8 @@ p {
 }
 
 h1 {
-  font-size: 3.25em;
-  line-height: 1.15385em;
+  font-size: 2.625em;
+  line-height: 1.14286em;
   margin-bottom: 40px;
 }
 
@@ -401,7 +401,7 @@ section > div {
 }
 
 .section-padding {
-  padding: 80px 40px;
+  padding: 80px 20px;
 }
 
 .checkbox-hack {
