@@ -33,7 +33,7 @@
     }
 }
 
-@media ($min_bp_b) {
+@media ($min_bp_a) {
     #index-header-text {
         padding: 150px 40px;
     }
@@ -41,6 +41,6 @@
 
 @media ($min_bp_c) {
     #index-header-text {
-        padding: 330px 0;
+        padding: 260px 0;
     }
 }

@@ -131,12 +131,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-right: 15px !important;
 }
 
+.ico-cube:before {
+  content: "\e610";
+}
+
+.ico-mobile:before {
+  content: "\e60a";
+}
+
 .ico-user:before {
   content: "\e602";
 }
 
+.ico-camera:before {
+  content: "\e60b";
+}
+
 .ico-graduate:before {
   content: "\e603";
+}
+
+.ico-graphic:before {
+  content: "\e60c";
+}
+
+.ico-art:before {
+  content: "\e60d";
+}
+
+.ico-keyboard:before {
+  content: "\e60f";
+}
+
+.ico-producer:before {
+  content: "\e60e";
 }
 
 .ico-github:before {
@@ -161,6 +189,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .ico-lastfm:before {
   content: "\e609";
+}
+
+.ico-arrow-up:before {
+  content: "\5e";
+}
+
+.ico-arrow-down:before {
+  content: "\36";
 }
 
 .ico-tools:before {
@@ -203,9 +239,10 @@ h2 {
 }
 
 h3 {
-  font-size: 1.375em;
-  line-height: 1.36364em;
+  font-size: 1.25em;
+  line-height: 1.2em;
   margin-bottom: 20px;
+  font-weight: 200;
 }
 
 a {
@@ -281,8 +318,8 @@ a {
   }
 
   h3 {
-    font-size: 2em;
-    line-height: 1.125em;
+    font-size: 1.5em;
+    line-height: 1.25em;
   }
 }
 .half,
@@ -386,6 +423,23 @@ a {
     margin-right: 0;
   }
 }
+.btn {
+  margin-top: 20px;
+  padding: 20px;
+  display: inline-block;
+  color: #f8ebb4;
+  background: #1e435d;
+  box-shadow: inset 2px 2px 0 #f8ebb4, inset -2px -2px 0 #f8ebb4;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: #f8ebb4;
+  color: #1e435d;
+}
+
 nav {
   width: 100%;
   height: 100px;
@@ -630,14 +684,14 @@ img {
     margin-bottom: 0;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 640px) {
   #index-header-text {
     padding: 150px 40px;
   }
 }
 @media (min-width: 1200px) {
   #index-header-text {
-    padding: 330px 0;
+    padding: 260px 0;
   }
 }
 footer {

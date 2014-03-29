@@ -15,8 +15,9 @@ h2 {
 }
 
 h3 {
-    @include adjust-font-size-to(22px);
+    @include adjust-font-size-to(20px);
     margin-bottom: 20px;
+    font-weight: 200;
 }
 
 a {
@@ -50,6 +51,6 @@ a {
     }
 
     h3 {
-        @include adjust-font-size-to(32px);
+        @include adjust-font-size-to(24px);
     }
 }

@@ -36,11 +36,32 @@
     margin-right: 15px !important;
 }
 
+.ico-cube:before {
+    content: "\e610";
+}
+.ico-mobile:before {
+    content: "\e60a";
+}
 .ico-user:before {
     content: "\e602";
 }
+.ico-camera:before {
+    content: "\e60b";
+}
 .ico-graduate:before {
     content: "\e603";
+}
+.ico-graphic:before {
+    content: "\e60c";
+}
+.ico-art:before {
+    content: "\e60d";
+}
+.ico-keyboard:before {
+    content: "\e60f";
+}
+.ico-producer:before {
+    content: "\e60e";
 }
 .ico-github:before {
     content: "\e604";
@@ -59,6 +80,12 @@
 }
 .ico-lastfm:before {
     content: "\e609";
+}
+.ico-arrow-up:before {
+    content: "\5e";
+}
+.ico-arrow-down:before {
+    content: "\36";
 }
 .ico-tools:before {
     content: "\e600";

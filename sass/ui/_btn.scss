@@ -1,0 +1,13 @@
+.btn {
+    margin-top: 20px;
+    padding: 20px;
+    display: inline-block;
+    color: $yellow;
+    background: $blue;
+    box-shadow: inset 2px 2px 0 $yellow, inset -2px -2px 0 $yellow;
+    @include transition(all .3s);
+    &:hover {
+        background: $yellow;
+        color: $blue;
+    }
+}
