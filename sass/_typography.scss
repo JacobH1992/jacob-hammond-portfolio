@@ -12,16 +12,28 @@ h2 {
     font-family: $header-font-family;
     @include adjust-font-size-to(26px);
     margin-bottom: 40px;
-    max-width: 860px;
 }
 
 h3 {
     @include adjust-font-size-to(22px);
-}  
+    margin-bottom: 20px;
+}
 
 a {
+    @include transition(all .5s);
+}
+
+.white a {
     @include link-colors($sdgrey, $mgrey, $dgrey, $dgrey, $dgrey);
     font-weight: 600;
+}
+
+.blue a {
+    @include link-colors($white, $yellow, $white, $white, $white);
+}
+
+.yellow a {
+    @include link-colors($dgrey, $blue, $dgrey, $dgrey, $dgrey);
 }
 
 @media ($min_bp_b) {

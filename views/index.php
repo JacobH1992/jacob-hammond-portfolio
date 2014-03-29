@@ -1,5 +1,5 @@
 <header id="index-header" class="blue">
-    <div id="index-header-text" class="align-center"> 
+    <div id="index-header-text" class="align-center section-padding">
         <h1>Welcome</h1>
         <h2>My name is Jacob Hammond, I am passionate about beautiful, clean and intuitive design.</h2>
     </div>
@@ -9,17 +9,17 @@
 
     <section id="index-about" class="white">
         <div class="align-center section-padding">
-            <h1>Call me Jake!</h1>
-            <h2>I am studying Multimedia Technology & Design at the University of Kent in Canterbury, England</h2>
-            <p class="half-margin">I love food, socialising, digital art, music, have a passion for design and people call me Jake. I started designing when I was 11 and haven't looked back since.</p>
-            <p class="half-margin">Now I am in the 4th and final year of my degree having worked as a designer for The Walt Disney Company in London for the past year.</p>
+            <h1>About</h1>
+            <h2>I am a recent graduate from the University of Kent in Canterbury, England with a degree in Multimedia Technology & Design.</h2>
+<!--             <p class="half-margin">I love food, socialising, digital art, music, have a passion for design and people call me Jake. I started designing when I was 11 and haven't looked back since.</p>
+            <p class="half-margin">I have just completed the 4th and final year of my degree having worked as a freelance designer and designer for The Walt Disney Company during that time.</p> -->
         </div>
     </section>
 
     <section class="yellow">
         <div class="align-center section-padding">
             <div class="list third-margin">
-                <h2>Skills</h2>
+                <h2><i class="ico-skills"></i>Skills</h2>
                 <ul>
                     <li><p>Website Design & Development</p></li>
                     <li><p>Graphic Design</p></li>
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div class="list third-margin">
-                <h2>Tools</h2>
+                <h2><i class="ico-tools"></i>Tools</h2>
                 <ul>
                     <li><p>Adobe Master Collection CS6</p></li>
                     <li><p>Sublime Text 3</p></li>
@@ -45,7 +45,7 @@
                 </ul>
             </div>
             <div class="third-margin">
-                <h2>Languages</h2>
+                <h2><i class="ico-languages"></i>Languages</h2>
                 <ul>
                     <li><p>HTML5</p></li>
                     <li><p>CSS3</p></li>
@@ -61,7 +61,19 @@
 
     <section class="white">
         <div class="align-center section-padding">
-            <h2>View my work</h2>
+            <h1>Recent Projects</h1>
+            <div class="third-margin">
+                <img src="http://jacobhammond.co.uk/images/projects/mobileapp.jpg" alt="">
+                <p>Comfortably Stylish Mobile App</p>
+            </div>
+            <div class="third-margin">
+                <img src="http://jacobhammond.co.uk/images/projects/mosquitoanimation.jpg" alt="">
+                <p>Mosquito Animation</p>
+            </div>
+            <div class="third-margin">
+                <img src="http://jacobhammond.co.uk/images/projects/precisepixels.jpg" alt="">
+                <p>Precise Pixels V2</p>
+            </div>
         </div>
     </section>
 

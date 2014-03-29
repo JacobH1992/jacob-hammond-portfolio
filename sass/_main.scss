@@ -2,8 +2,8 @@
     @include box-sizing(border-box);
 }
 
-* > :last-child { 
-    margin-bottom: 0 !important; 
+* > :last-child {
+    margin-bottom: 0 !important;
 }
 
 html {
@@ -17,12 +17,6 @@ main {
     width: 100%;
     position: relative;
     z-index: 1;
-}
-
-header {
-    h1 {
-        @include adjust-font-size-to(42px);
-    }
 }
 
 section > div {
@@ -39,6 +33,11 @@ section > div {
     padding: 80px 20px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .checkbox-hack {
     display: none;
 }
@@ -52,12 +51,13 @@ section > div {
 }
 
 @media ($min_bp_a) {
-    header {
-        h1 {
-            @include adjust-font-size-to(82px);
-        }
-    }
     .section-padding {
         padding: 120px 40px;
+    }
+}
+
+@media ($min_bp_c) {
+    .section-padding {
+        padding: 120px 0;
     }
 }

@@ -97,6 +97,92 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: #222222;
 }
 
+@font-face {
+  font-family: 'Jacob-Hammond-Icon-Font';
+  src: url("../fonts/Jacob-Hammond-Icon-Font.eot?-wqe5ba");
+  src: url("../fonts/Jacob-Hammond-Icon-Font.eot?#iefix-wqe5ba") format("embedded-opentype"), url("../fonts/Jacob-Hammond-Icon-Font.woff?-wqe5ba") format("woff"), url("../fonts/Jacob-Hammond-Icon-Font.ttf?-wqe5ba") format("truetype"), url("../fonts/Jacob-Hammond-Icon-Font.svg?-wqe5ba#Jacob-Hammond-Icon-Font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ico-"],
+[class*=" ico-"] {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: 'Jacob-Hammond-Icon-Font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ico-"]:last-child,
+[class*=" ico-"]:last-child {
+  margin-right: 0 !important;
+}
+
+[class^="ico-"]:first-child,
+[class*=" ico-"]:first-child {
+  margin-right: 15px !important;
+}
+
+.ico-user:before {
+  content: "\e602";
+}
+
+.ico-graduate:before {
+  content: "\e603";
+}
+
+.ico-github:before {
+  content: "\e604";
+}
+
+.ico-twitter:before {
+  content: "\e605";
+}
+
+.ico-facebook:before {
+  content: "\e606";
+}
+
+.ico-tumblr:before {
+  content: "\e607";
+}
+
+.ico-linkedin:before {
+  content: "\e608";
+}
+
+.ico-lastfm:before {
+  content: "\e609";
+}
+
+.ico-tools:before {
+  content: "\e600";
+}
+
+.ico-menu:before {
+  content: "\62";
+}
+
+.ico-languages:before {
+  content: "\63";
+}
+
+.ico-skills:before {
+  content: "\e601";
+}
+
+.ico-close:before {
+  content: "\78";
+}
+
 p {
   font-size: 1em;
   line-height: 1.5em;
@@ -114,28 +200,67 @@ h2 {
   font-size: 1.625em;
   line-height: 1.15385em;
   margin-bottom: 40px;
-  max-width: 860px;
 }
 
 h3 {
   font-size: 1.375em;
   line-height: 1.36364em;
+  margin-bottom: 20px;
 }
 
 a {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.white a {
   color: #222222;
   font-weight: 600;
 }
-a:visited {
+.white a:visited {
   color: #333333;
 }
-a:focus {
+.white a:focus {
   color: #333333;
 }
-a:hover {
+.white a:hover {
   color: #999999;
 }
-a:active {
+.white a:active {
+  color: #333333;
+}
+
+.blue a {
+  color: white;
+}
+.blue a:visited {
+  color: white;
+}
+.blue a:focus {
+  color: white;
+}
+.blue a:hover {
+  color: #f8ebb4;
+}
+.blue a:active {
+  color: white;
+}
+
+.yellow a {
+  color: #333333;
+}
+.yellow a:visited {
+  color: #333333;
+}
+.yellow a:focus {
+  color: #333333;
+}
+.yellow a:hover {
+  color: #1e435d;
+}
+.yellow a:active {
   color: #333333;
 }
 
@@ -263,26 +388,29 @@ a:active {
 }
 nav {
   width: 100%;
-  height: 60px;
+  height: 100px;
   position: fixed;
   top: 0;
-  padding-right: 40px;
-  background: #eeeeee;
+  padding-right: 20px;
   z-index: 2;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 nav ul {
   width: 50%;
   height: 100%;
   position: fixed;
-  top: 60px;
+  top: 100px;
   right: -50%;
-  background: #eeeeee;
   text-align: right;
+  background: white;
 }
 nav li {
   padding: 0 40px;
   font-weight: 600;
-  line-height: 60px;
+  line-height: 80px;
 }
 nav a {
   color: inherit;
@@ -295,31 +423,64 @@ nav a:active, nav a:focus {
 
 #nav-logo {
   float: left;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 #nav-logo h1 {
   font-size: 2.625em;
   line-height: 1.14286em;
-  line-height: 60px;
+  line-height: 100px;
+}
+
+#site-nav {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.blue #site-nav {
+  background: #1e435d;
 }
 
 #site-nav-btn {
   width: 100px;
-  height: 100px;
   position: absolute;
-  right: 0;
+  right: -10px;
   display: block;
   cursor: pointer;
   text-align: center;
-  line-height: 60px;
   z-index: 4;
 }
+#site-nav-btn:hover {
+  color: #f8ebb4;
+}
 
-#site-nav-toggle:checked + #site-nav {
+.white #site-nav-btn:hover {
+  color: #999999;
+}
+
+#site-nav-btn:before {
+  content: 'b';
+  font-size: 2.625em;
+  line-height: 1.14286em;
+  line-height: 100px;
+}
+
+#site-nav-toggle:checked ~ #site-nav-btn:before {
+  content: 'x';
+  font-size: 2em;
+  line-height: 1.125em;
+  line-height: 100px;
+}
+
+#site-nav-toggle:checked ~ #site-nav {
   right: 0;
 }
 
 @media (min-width: 640px) {
+  nav {
+    padding-right: 40px;
+  }
   nav ul {
     width: auto;
     position: relative;
@@ -341,6 +502,7 @@ nav a:active, nav a:focus {
     float: left;
     padding-left: 20px;
     padding-right: 20px;
+    line-height: 100px;
   }
   nav li:first-child, nav li.first {
     padding-left: 0;
@@ -350,6 +512,11 @@ nav a:active, nav a:focus {
   }
   nav li.last {
     padding-right: 0;
+  }
+
+  #nav-logo {
+    float: left;
+    padding: 0 40px;
   }
 
   #site-nav-btn {
@@ -385,11 +552,6 @@ main {
   z-index: 1;
 }
 
-header h1 {
-  font-size: 2.625em;
-  line-height: 1.14286em;
-}
-
 section > div {
   overflow: hidden;
 }
@@ -402,6 +564,11 @@ section > div {
 
 .section-padding {
   padding: 80px 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .checkbox-hack {
@@ -423,30 +590,29 @@ section > div {
 }
 
 @media (min-width: 640px) {
-  header h1 {
-    font-size: 5.125em;
-    line-height: 1.09756em;
-  }
-
   .section-padding {
     padding: 120px 40px;
   }
 }
+@media (min-width: 1200px) {
+  .section-padding {
+    padding: 120px 0;
+  }
+}
 #index-header {
-  height: 1000px;
+  margin-top: 100px;
   background-position: center;
   background-size: cover;
 }
 
 #index-header-text {
   width: 100%;
-  max-width: 1000px;
-  position: absolute;
-  top: 50%;
-  margin-top: -200px;
-  padding: 40px;
+  padding: 80px 20px;
 }
 
+#index-about {
+  background-size: cover;
+}
 #index-about p {
   margin-bottom: 20px;
 }
@@ -464,12 +630,16 @@ section > div {
     margin-bottom: 0;
   }
 }
+@media (min-width: 800px) {
+  #index-header-text {
+    padding: 150px 40px;
+  }
+}
 @media (min-width: 1200px) {
   #index-header-text {
-    left: 50%;
-    margin-left: -500px;
+    padding: 330px 0;
   }
 }
 footer {
-  height: 500px;
+  text-align: right;
 }

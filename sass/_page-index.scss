@@ -1,5 +1,5 @@
 #index-header {
-    height: 1000px;
+    margin-top: 100px;
     // background: url(/images/bg.jpg) center $blue;
     background-position: center;
     background-size: cover;
@@ -7,14 +7,11 @@
 
 #index-header-text {
     width: 100%;
-    max-width: 1000px;
-    position: absolute;
-    top: 50%;
-    margin-top: -200px;
-    padding: 40px;
+    padding: 80px 20px;
 }
 
 #index-about {
+    background-size: cover;
     p {
         margin-bottom: 20px;
     }
@@ -36,9 +33,14 @@
     }
 }
 
+@media ($min_bp_b) {
+    #index-header-text {
+        padding: 150px 40px;
+    }
+}
+
 @media ($min_bp_c) {
     #index-header-text {
-        left: 50%;
-        margin-left: -500px;
+        padding: 330px 0;
     }
 }
