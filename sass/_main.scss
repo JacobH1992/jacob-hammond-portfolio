@@ -11,6 +11,7 @@ html {
     @include establish-baseline(16px);
     @include adjust-leading-to(4);
     color: $blue;
+    text-rendering: optimizelegibility;
 }
 
 main {
@@ -19,8 +20,14 @@ main {
     z-index: 1;
 }
 
-section > div {
+section > div,
+footer > div,
+header > div {
     overflow: hidden;
+}
+
+.section-content-wrapper {
+    clear: both;
 }
 
 .align-center {

@@ -1,7 +1,5 @@
 #index-header {
     margin-top: 100px;
-    // background: url(/images/bg.jpg) center $blue;
-    background-position: center;
     background-size: cover;
 }
 
@@ -11,31 +9,30 @@
 }
 
 #index-about {
-    background-size: cover;
     p {
         margin-bottom: 20px;
     }
 }
 
 .list {
+    margin-top: 0;
     margin-bottom: 40px;
 }
 
-@media ($min_bp_a) {
-    #index-about {
-        p {
-            margin-bottom: 0;
-        }
-    }
-
-    .list {
-        margin-bottom: 0;
-    }
+#index-work {
 }
 
 @media ($min_bp_a) {
     #index-header-text {
         padding: 150px 40px;
+    }
+
+    .list {
+        margin-top: 20px;
+        margin-bottom: 0;
+        li {
+        padding: 2px 0;
+        }
     }
 }
 

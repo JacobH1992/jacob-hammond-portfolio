@@ -1,4 +1,3 @@
-@import url("//hello.myfonts.net/count/2a6c8a");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,12 +52,6 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
-}
-
-@font-face {
-  font-family: 'GistRoughLightThree';
-  src: url("../fonts/GistRoughLightThree.eot");
-  src: url("../fonts/GistRoughLightThree.eot?#iefix") format("embedded-opentype"), url("../fonts/GistRoughLightThree.woff") format("woff"), url("../fonts/GistRoughLightThree.ttf") format("truetype"), url("../fonts/GistRoughLightThree.svg#wf") format("svg");
 }
 
 @font-face {
@@ -121,18 +114,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="ico-"]:last-child,
-[class*=" ico-"]:last-child {
+.ico--no-margin {
   margin-right: 0 !important;
 }
 
-[class^="ico-"]:first-child,
-[class*=" ico-"]:first-child {
-  margin-right: 15px !important;
+.ico-graduate:before {
+  content: "\67";
 }
 
 .ico-cube:before {
   content: "\e610";
+}
+
+.ico-download:before {
+  content: "\64";
+}
+
+.ico-arrow-up:before {
+  content: "\5e";
+}
+
+.ico-arrow-down:before {
+  content: "\36";
+}
+
+.ico-tools:before {
+  content: "\e600";
+}
+
+.ico-menu:before {
+  content: "\62";
+}
+
+.ico-languages:before {
+  content: "\63";
+}
+
+.ico-skills:before {
+  content: "\e601";
+}
+
+.ico-heart:before {
+  content: "\48";
+}
+
+.ico-close:before {
+  content: "\78";
 }
 
 .ico-mobile:before {
@@ -145,10 +172,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .ico-camera:before {
   content: "\e60b";
-}
-
-.ico-graduate:before {
-  content: "\e603";
 }
 
 .ico-graphic:before {
@@ -191,37 +214,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "\e609";
 }
 
-.ico-arrow-up:before {
+.ico-arrow-left {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.ico-arrow-left:before {
   content: "\5e";
-}
-
-.ico-arrow-down:before {
-  content: "\36";
-}
-
-.ico-tools:before {
-  content: "\e600";
-}
-
-.ico-menu:before {
-  content: "\62";
-}
-
-.ico-languages:before {
-  content: "\63";
-}
-
-.ico-skills:before {
-  content: "\e601";
-}
-
-.ico-close:before {
-  content: "\78";
 }
 
 p {
   font-size: 1em;
   line-height: 1.5em;
+  margin-bottom: 20px;
   font-weight: 200;
 }
 
@@ -250,11 +258,11 @@ a {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  font-weight: 600;
 }
 
 .white a {
-  color: #222222;
-  font-weight: 600;
+  color: #333333;
 }
 .white a:visited {
   color: #333333;
@@ -283,6 +291,21 @@ a {
 }
 .blue a:active {
   color: white;
+}
+.blue a .btn {
+  color: #f8ebb4;
+}
+.blue a .btn:visited {
+  color: #f8ebb4;
+}
+.blue a .btn:focus {
+  color: #f8ebb4;
+}
+.blue a .btn:hover {
+  color: #f8ebb4;
+}
+.blue a .btn:active {
+  color: #f8ebb4;
 }
 
 .yellow a {
@@ -322,6 +345,11 @@ a {
     line-height: 1.25em;
   }
 }
+.full {
+  width: 100%;
+  float: left;
+}
+
 .half,
 .third {
   width: 100%;
@@ -349,9 +377,9 @@ a {
   }
 
   .half-margin {
-    width: 49%;
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 48%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .half-margin:first-of-type {
@@ -367,18 +395,18 @@ a {
   }
 
   .third-margin {
-    width: 32.33333%;
-    margin-left: .5%;
-    margin-right: .5%;
+    width: 31.33333%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
   .third-margin:first-of-type {
     margin-left: 0;
-    margin-right: 1%;
+    margin-right: 2%;
   }
 
   .third-margin:last-of-type {
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: 0;
   }
 
@@ -427,17 +455,47 @@ a {
   margin-top: 20px;
   padding: 20px;
   display: inline-block;
-  color: #f8ebb4;
-  background: #1e435d;
-  box-shadow: inset 2px 2px 0 #f8ebb4, inset -2px -2px 0 #f8ebb4;
+  *display: inline;
+  cursor: pointer;
+  white-space: nowrap;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.btn:hover {
+
+a.btn {
+  font-weight: 200;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+a.btn:active, a.btn:focus {
+  outline: none;
+}
+
+.blue a.btn {
+  color: #f8ebb4;
+}
+
+.blue .btn {
+  border: 1px solid #f8ebb4;
+  color: #f8ebb4;
+}
+.blue .btn:hover {
   background: #f8ebb4;
   color: #1e435d;
+}
+
+.yellow .btn,
+.white .btn {
+  border: 1px solid #222222;
+  color: #222222;
+}
+.yellow .btn:hover,
+.white .btn:hover {
+  background: #222222;
+  color: white;
 }
 
 nav {
@@ -591,6 +649,7 @@ html {
   font-family: "Roboto", Arial, Sans-Serif;
   line-height: 1.5em;
   color: #1e435d;
+  text-rendering: optimizelegibility;
 }
 html * html {
   font-size: 100%;
@@ -606,8 +665,14 @@ main {
   z-index: 1;
 }
 
-section > div {
+section > div,
+footer > div,
+header > div {
   overflow: hidden;
+}
+
+.section-content-wrapper {
+  clear: both;
 }
 
 .align-center {
@@ -655,7 +720,6 @@ img {
 }
 #index-header {
   margin-top: 100px;
-  background-position: center;
   background-size: cover;
 }
 
@@ -664,29 +728,26 @@ img {
   padding: 80px 20px;
 }
 
-#index-about {
-  background-size: cover;
-}
 #index-about p {
   margin-bottom: 20px;
 }
 
 .list {
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
 @media (min-width: 640px) {
-  #index-about p {
-    margin-bottom: 0;
+  #index-header-text {
+    padding: 150px 40px;
   }
 
   .list {
+    margin-top: 20px;
     margin-bottom: 0;
   }
-}
-@media (min-width: 640px) {
-  #index-header-text {
-    padding: 150px 40px;
+  .list li {
+    padding: 2px 0;
   }
 }
 @media (min-width: 1200px) {
@@ -694,6 +755,8 @@ img {
     padding: 260px 0;
   }
 }
-footer {
-  text-align: right;
+.copyright {
+  margin-top: 40px;
+  font-size: 0.875em;
+  line-height: 1.28571em;
 }

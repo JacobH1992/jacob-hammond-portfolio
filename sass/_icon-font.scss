@@ -26,18 +26,52 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="ico-"]:last-child,
-[class*=" ico-"]:last-child {
+// [class^="ico-"]:last-child,
+// [class*=" ico-"]:last-child {
+//     margin: 0 !important;
+// }
+
+// [class^="ico-"]:first-child,
+// [class*=" ico-"]:first-child {
+//     margin-right: 15px !important;
+// }
+
+.ico--no-margin {
     margin-right: 0 !important;
 }
 
-[class^="ico-"]:first-child,
-[class*=" ico-"]:first-child {
-    margin-right: 15px !important;
+.ico-graduate:before {
+    content: "\67";
 }
-
 .ico-cube:before {
     content: "\e610";
+}
+.ico-download:before {
+    content: "\64";
+}
+.ico-arrow-up:before {
+    content: "\5e";
+}
+.ico-arrow-down:before {
+    content: "\36";
+}
+.ico-tools:before {
+    content: "\e600";
+}
+.ico-menu:before {
+    content: "\62";
+}
+.ico-languages:before {
+    content: "\63";
+}
+.ico-skills:before {
+    content: "\e601";
+}
+.ico-heart:before {
+    content: "\48";
+}
+.ico-close:before {
+    content: "\78";
 }
 .ico-mobile:before {
     content: "\e60a";
@@ -47,9 +81,6 @@
 }
 .ico-camera:before {
     content: "\e60b";
-}
-.ico-graduate:before {
-    content: "\e603";
 }
 .ico-graphic:before {
     content: "\e60c";
@@ -81,24 +112,10 @@
 .ico-lastfm:before {
     content: "\e609";
 }
-.ico-arrow-up:before {
+
+.ico-arrow-left {
+    @include transform(rotate(90deg));
+}
+.ico-arrow-left:before {
     content: "\5e";
-}
-.ico-arrow-down:before {
-    content: "\36";
-}
-.ico-tools:before {
-    content: "\e600";
-}
-.ico-menu:before {
-    content: "\62";
-}
-.ico-languages:before {
-    content: "\63";
-}
-.ico-skills:before {
-    content: "\e601";
-}
-.ico-close:before {
-    content: "\78";
 }

@@ -1,5 +1,6 @@
 p {
     @include adjust-font-size-to(16px);
+    margin-bottom: 20px;
     font-weight: 200;
 }
 
@@ -22,16 +23,20 @@ h3 {
 
 a {
     @include transition(all .5s);
+    font-weight: 600;
 }
 
 .white a {
-    @include link-colors($sdgrey, $mgrey, $dgrey, $dgrey, $dgrey);
-    font-weight: 600;
+    @include link-colors($dgrey, $mgrey, $dgrey, $dgrey, $dgrey);
 }
 
 .blue a {
     @include link-colors($white, $yellow, $white, $white, $white);
+    .btn {
+        @include link-colors($yellow, $yellow, $yellow, $yellow, $yellow);
+    }
 }
+
 
 .yellow a {
     @include link-colors($dgrey, $blue, $dgrey, $dgrey, $dgrey);

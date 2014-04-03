@@ -2,12 +2,36 @@
     margin-top: 20px;
     padding: 20px;
     display: inline-block;
-    color: $yellow;
-    background: $blue;
-    box-shadow: inset 2px 2px 0 $yellow, inset -2px -2px 0 $yellow;
+    *display: inline;
+    cursor: pointer;
+    white-space: nowrap;
     @include transition(all .3s);
+}
+
+a.btn {
+    font-weight: 200;
+    @include unstyled-link;
+}
+
+.blue a.btn {
+    color: $yellow;
+}
+
+.blue .btn {
+    border: 1px solid $yellow;
+    color: $yellow;
     &:hover {
         background: $yellow;
         color: $blue;
+    }
+}
+
+.yellow .btn,
+.white .btn {
+    border: 1px solid $sdgrey;
+    color: $sdgrey;
+    &:hover {
+        background: $sdgrey;
+        color: $white;
     }
 }

@@ -2,16 +2,6 @@
 @import "compass/layout";
 @import "compass/reset";
 
-@import url("//hello.myfonts.net/count/2a6c8a");
-@font-face {
-    font-family: 'GistRoughLightThree';
-    src: url('../fonts/GistRoughLightThree.eot');
-    src: url('../fonts/GistRoughLightThree.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/GistRoughLightThree.woff') format('woff'),
-    url('../fonts/GistRoughLightThree.ttf') format('truetype'),
-    url('../fonts/GistRoughLightThree.svg#wf') format('svg');
-}
-
 @font-face {
     font-family: 'modumregular';
     src: url('../fonts/modum_regular_regular-webfont.eot');
