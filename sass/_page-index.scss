@@ -1,5 +1,4 @@
 #index-header {
-    margin-top: 100px;
     background-size: cover;
 }
 
@@ -19,7 +18,9 @@
     margin-bottom: 40px;
 }
 
-#index-work {
+#index-recent-work {
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 @media ($min_bp_a) {

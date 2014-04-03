@@ -62,9 +62,41 @@
     </section>
 
     <section class="white">
-        <div id="index-work" class="align-center section-padding">
+        <div class="align-center section-padding">
             <h1>Recent work</h1>
-            <div class="btn"><i class="ico-arrow-left"></i>VIEW ALL MY WORK</div>
+            <div id="index-recent-work">
+                <div class="work-item third-margin">
+                    <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
+                    <div class="work-item-description">
+                        <h1>Comfortably Stylish</h2>
+                        <p>Android Mobile App</p>
+                    </div>
+                    <div class="work-item-icon">
+                        <i class="ico-mobile"></i>
+                    </div>
+                </div>
+                <div class="work-item third-margin">
+                    <img src="/img/work/web-design/petebatten.jpg" alt="">
+                    <div class="work-item-description">
+                        <h1>Peter Batten</h2>
+                        <p>Website Design & Development</p>
+                    </div>
+                    <div class="work-item-icon">
+                        <i class="ico-keyboard"></i>
+                    </div>
+                </div>
+                <div class="work-item third-margin">
+                    <img src="/img/work/3d/mosquito.jpg" alt="">
+                    <div class="work-item-description">
+                        <h1>Mosquito</h2>
+                        <p>3D Animation</p>
+                    </div>
+                    <div class="work-item-icon">
+                        <i class="ico-cube"></i>
+                    </div>
+                </div>
+            </div>
+            <a href="/work" class="btn"><i class="ico-arrow-left"></i>VIEW ALL MY WORK</a>
         </div>
     </section>
 
