@@ -23,7 +23,7 @@
 
     <section class="white">
         <div id="work-items" class="align-center section-padding">
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Comfortably Stylish</h2>
@@ -33,7 +33,7 @@
                     <i class="ico-mobile"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/web-design/petebatten.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Peter Batten</h2>
@@ -43,7 +43,7 @@
                     <i class="ico-keyboard"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/3d/mosquito.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Mosquito</h2>
@@ -53,7 +53,7 @@
                     <i class="ico-cube"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Comfortably Stylish</h2>
@@ -63,7 +63,7 @@
                     <i class="ico-mobile"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/web-design/petebatten.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Peter Batten</h2>
@@ -73,7 +73,7 @@
                     <i class="ico-keyboard"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/3d/mosquito.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Mosquito</h2>
@@ -83,7 +83,7 @@
                     <i class="ico-cube"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Comfortably Stylish</h2>
@@ -93,7 +93,7 @@
                     <i class="ico-mobile"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/web-design/petebatten.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Peter Batten</h2>
@@ -103,7 +103,7 @@
                     <i class="ico-keyboard"></i>
                 </div>
             </div>
-            <div class="work-item third-margin">
+            <div class="work-item third">
                 <img src="/img/work/3d/mosquito.jpg" alt="">
                 <div class="work-item-description">
                     <h1>Mosquito</h2>

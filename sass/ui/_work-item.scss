@@ -1,8 +1,8 @@
 .work-item {
     position: relative;
-    margin-bottom: 20px;
     float: left;
     overflow: hidden;
+    border: 5px solid $white;
     img {
         width: 100%;
         display: block;
@@ -24,9 +24,9 @@
 }
 
 .work-item-description {
-    width: 100%;
-    height: 100%;
+    top: 0;
     padding: 10px;
+    background: white;
     @include transition(all .3s);  
 }
 
