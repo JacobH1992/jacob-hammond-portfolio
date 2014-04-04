@@ -1,9 +1,49 @@
-<items>
-    <item type="">
-        <title><title>
-        <short-desc></short-desc>
-        <long-desc></long-desc>
-        <img-thumb></img-thumb>
-        <img-banner></img-banner>
+<xml>
+    <item type="mobile" url="comfortably-stylish">
+        <title>Comfortably Stylish<title>
+        <img-small>
+            <![CDATA[
+                <img src="images/web/comfortably-stylish.png" alt="Comfotably Stylish Mobile App" title="Comfotably Stylish Mobile App"/>
+                <p>Redesign of the Precise Pixels site.</p>
+            ]]>
+        </img-small>
+        <short-desc>Android Mobile App</short-desc>
+        <icon>m</icon>
     </item>
-</items>
+</xml>
+
+<!-- types:
+web
+gd
+da
+3d
+mobile
+photo
+prod 
+-->
+
+
+    <item short="precisepixels2">
+        <title>Precise Pixels</title>
+        <status>v2</status>
+        <url>http://www.precisepixels.co.uk/</url>
+        <client>Precise Pixels</client>
+        <brief>
+            <![CDATA[
+                <img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+                <p>Redesign of the Precise Pixels site.</p>
+            ]]>
+        </brief>
+        <techused>
+            <![CDATA[
+                <ul>
+                    <li>Mobile first</li>
+                    <li>Responsive</li>
+                    <li>Sass</li>
+                    <li>Font icons with retina enabled fallbacks</li>
+                    <!--<li>CSS 3D transform</li>-->
+                </ul>
+            ]]>
+        </techused>
+        <image>http://jalproductions.co.uk/img/web/precisepixels2.jpg</image>
+    </item>

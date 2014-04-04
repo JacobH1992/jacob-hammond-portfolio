@@ -1,11 +1,3 @@
-// // Full height homepage image
-// var indexHeader   = document.getElementById('index-header');
-// indexHeader.style.height = (window.innerHeight || document.documentElement.clientHeight) + 'px';
-
-// window.addEventListener('resize', function() {
-//     indexHeader.style.height = (window.innerHeight || document.documentElement.clientHeight) + 'px';
-// });
-
 // Nav fade
 var navBar  = document.getElementsByTagName('nav')[0];
 var position;

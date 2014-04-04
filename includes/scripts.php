@@ -1,3 +1,1 @@
-<?php if($isHome): ?>
-    <script src='js/page-home.js'></script>
-<?php endif; ?>
+<script src='js/all.js'></script>
