@@ -30,10 +30,8 @@
 
                 ?>
                     <div class="work-item">
-                        <img src="img/spinner.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
-                        <noscript>
-                            <img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/>
-                        </noscript>
+                        <img src="img/blank.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
+                        <noscript><img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
                         <div class="work-item-description">
                             <h1><?= $title; ?></h1>
                             <p><?= $type; ?></p>

@@ -766,6 +766,10 @@ img {
   height: auto;
 }
 
+.lazy {
+  background: url(../img/spinner.gif) center no-repeat;
+}
+
 .no-js .lazy {
   display: none;
 }
