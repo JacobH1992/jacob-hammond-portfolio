@@ -1,49 +1,83 @@
-<xml>
-    <item type="mobile" url="comfortably-stylish">
-        <title>Comfortably Stylish<title>
-        <img-small>
-            <![CDATA[
-                <img src="images/web/comfortably-stylish.png" alt="Comfotably Stylish Mobile App" title="Comfotably Stylish Mobile App"/>
-                <p>Redesign of the Precise Pixels site.</p>
-            ]]>
-        </img-small>
-        <short-desc>Android Mobile App</short-desc>
-        <icon>m</icon>
-    </item>
-</xml>
-
-<!-- types:
-web
-gd
-da
-3d
-mobile
-photo
-prod 
+<!-- 
+Icons:
+1 - Website Design
+2 - Graphic Design
+3 - Digital Art
+4 - 3D Design
+5 - Mobile App Design
+6 - Photography
+7 - Website Production 
 -->
 
-
-    <item short="precisepixels2">
-        <title>Precise Pixels</title>
-        <status>v2</status>
-        <url>http://www.precisepixels.co.uk/</url>
-        <client>Precise Pixels</client>
-        <brief>
-            <![CDATA[
-                <img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
-                <p>Redesign of the Precise Pixels site.</p>
-            ]]>
-        </brief>
-        <techused>
-            <![CDATA[
-                <ul>
-                    <li>Mobile first</li>
-                    <li>Responsive</li>
-                    <li>Sass</li>
-                    <li>Font icons with retina enabled fallbacks</li>
-                    <!--<li>CSS 3D transform</li>-->
-                </ul>
-            ]]>
-        </techused>
-        <image>http://jalproductions.co.uk/img/web/precisepixels2.jpg</image>
+<xml>
+    <item url="comfortably-stylish">
+        <icon>5</icon>
+        <title>Comfortably Stylish</title>
+        <imgSmall>img/work/mobile-app/comfortably-stylish.jpg</imgSmall>
     </item>
+    <item url="peter-batten">
+        <icon>1</icon>
+        <title>Peter Batten</title>
+        <imgSmall>img/work/web/petebatten.jpg</imgSmall>
+    </item>
+    <item url="mosquito-animation">
+        <icon>4</icon>
+        <title>Mosquito 3D Animation</title>
+        <imgSmall>img/work/3d/mosquito.jpg</imgSmall>
+    </item>
+    <item url="magic-show">
+        <icon>4</icon>
+        <title>Magic Show</title>
+        <imgSmall>img/work/3d/magic-show.jpg</imgSmall>
+    </item>
+    <item url="precise-pixels-v2">
+        <icon>1</icon>
+        <title>Precise Pixels v2</title>
+        <imgSmall>img/work/web/ppixels2.jpg</imgSmall>
+    </item>
+    <item url="mickeys-rockin-roadshow">
+        <icon>1</icon>
+        <title>Mickeys Rockin' Roadshow</title>
+        <imgSmall>img/work/web/mickeysrockinroadshow.jpg</imgSmall>
+    </item>
+    <item url="madagascar3">
+        <icon>1</icon>
+        <title>Madagascar 3 Competition</title>
+        <imgSmall>img/work/web/madagascar3.jpg</imgSmall>
+    </item>
+    <item url="disney-characters">
+        <icon>7</icon>
+        <title>Disney Characters Page</title>
+        <imgSmall>img/work/production/disney-characters.jpg</imgSmall>
+    </item>
+    <item url="bafta-kids-vote">
+        <icon>1</icon>
+        <title>Bafta Kids' Vote</title>
+        <imgSmall>img/work/web/baftakidsvote.jpg</imgSmall>
+    </item>
+    <item url="gravityfalls">
+        <icon>7</icon>
+        <title>Disney XD Gravity Falls</title>
+        <imgSmall>img/work/production/gravityfalls.jpg</imgSmall>
+    </item>
+    <item url="robot">
+        <icon>4</icon>
+        <title>Medi Robot</title>
+        <imgSmall>img/work/3d/robot.jpg</imgSmall>
+    </item>
+    <item url="precise-pixels-v1">
+        <icon>1</icon>
+        <title>Precise Pixels v1</title>
+        <imgSmall>img/work/web/ppixels1.jpg</imgSmall>
+    </item>
+    <item url="peking">
+        <icon>1</icon>
+        <title>Peking Restaurant</title>
+        <imgSmall>img/work/web/peking.jpg</imgSmall>
+    </item>
+    <item url="spaceship-race">
+        <icon>4</icon>
+        <title>Spaceship Race</title>
+        <imgSmall>img/work/3d/spaceshiprace.jpg</imgSmall>
+    </item>
+</xml>

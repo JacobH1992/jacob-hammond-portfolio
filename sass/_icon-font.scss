@@ -26,34 +26,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-// [class^="ico-"]:last-child,
-// [class*=" ico-"]:last-child {
-//     margin: 0 !important;
-// }
-
-// [class^="ico-"]:first-child,
-// [class*=" ico-"]:first-child {
-//     margin-right: 15px !important;
-// }
-
-.ico--no-margin {
-    margin-right: 0 !important;
-}
-
-.ico-graduate:before {
-    content: "\67";
-}
-.ico-cube:before {
-    content: "\e610";
-}
-.ico-download:before {
-    content: "\64";
-}
-.ico-arrow-up:before {
-    content: "\5e";
-}
-.ico-arrow-down:before {
-    content: "\36";
+.ico-languages:before {
+    content: "\63";
 }
 .ico-tools:before {
     content: "\e600";
@@ -61,41 +35,23 @@
 .ico-menu:before {
     content: "\62";
 }
-.ico-languages:before {
-    content: "\63";
-}
 .ico-skills:before {
     content: "\e601";
-}
-.ico-heart:before {
-    content: "\48";
 }
 .ico-close:before {
     content: "\78";
 }
-.ico-mobile:before {
-    content: "\e60a";
+.ico-arrow-down:before {
+    content: "\27";
 }
-.ico-user:before {
-    content: "\e602";
+.ico-arrow-up:before {
+    content: "\5e";
 }
-.ico-camera:before {
-    content: "\e60b";
+.ico-download:before {
+    content: "\64";
 }
-.ico-graphic:before {
-    content: "\e60c";
-}
-.ico-art:before {
-    content: "\e60d";
-}
-.ico-keyboard:before {
-    content: "\e60f";
-}
-.ico-producer:before {
-    content: "\e60e";
-}
-.ico-github:before {
-    content: "\e604";
+.ico-heart:before {
+    content: "\48";
 }
 .ico-twitter:before {
     content: "\e605";
@@ -106,11 +62,41 @@
 .ico-tumblr:before {
     content: "\e607";
 }
+.ico-lastfm:before {
+    content: "\e609";
+}
 .ico-linkedin:before {
     content: "\e608";
 }
-.ico-lastfm:before {
-    content: "\e609";
+.ico-github:before {
+    content: "\e604";
+}
+.ico-user:before {
+    content: "\e602";
+}
+.ico-camera:before {
+    content: "\36";
+}
+.ico-mobile:before {
+    content: "\35";
+}
+.ico-producer:before {
+    content: "\37";
+}
+.ico-art:before {
+    content: "\33";
+}
+.ico-keyboard:before {
+    content: "\31";
+}
+.ico-graphic:before {
+    content: "\32";
+}
+.ico-cube:before {
+    content: "\34";
+}
+.ico-graduate:before {
+    content: "\67";
 }
 
 .ico-arrow-left {

@@ -77,16 +77,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .lgrey {
   color: #333333;
-  background: #dddddd;
+  background: #eeeeee;
 }
 
 .dgrey {
-  color: #dddddd;
+  color: #eeeeee;
   background: #333333;
 }
 
 .sdgrey {
-  color: #dddddd;
+  color: #eeeeee;
   background: #222222;
 }
 
@@ -114,28 +114,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ico--no-margin {
-  margin-right: 0 !important;
-}
-
-.ico-graduate:before {
-  content: "\67";
-}
-
-.ico-cube:before {
-  content: "\e610";
-}
-
-.ico-download:before {
-  content: "\64";
-}
-
-.ico-arrow-up:before {
-  content: "\5e";
-}
-
-.ico-arrow-down:before {
-  content: "\36";
+.ico-languages:before {
+  content: "\63";
 }
 
 .ico-tools:before {
@@ -146,52 +126,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "\62";
 }
 
-.ico-languages:before {
-  content: "\63";
-}
-
 .ico-skills:before {
   content: "\e601";
-}
-
-.ico-heart:before {
-  content: "\48";
 }
 
 .ico-close:before {
   content: "\78";
 }
 
-.ico-mobile:before {
-  content: "\e60a";
+.ico-arrow-down:before {
+  content: "\27";
 }
 
-.ico-user:before {
-  content: "\e602";
+.ico-arrow-up:before {
+  content: "\5e";
 }
 
-.ico-camera:before {
-  content: "\e60b";
+.ico-download:before {
+  content: "\64";
 }
 
-.ico-graphic:before {
-  content: "\e60c";
-}
-
-.ico-art:before {
-  content: "\e60d";
-}
-
-.ico-keyboard:before {
-  content: "\e60f";
-}
-
-.ico-producer:before {
-  content: "\e60e";
-}
-
-.ico-github:before {
-  content: "\e604";
+.ico-heart:before {
+  content: "\48";
 }
 
 .ico-twitter:before {
@@ -206,12 +162,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "\e607";
 }
 
+.ico-lastfm:before {
+  content: "\e609";
+}
+
 .ico-linkedin:before {
   content: "\e608";
 }
 
-.ico-lastfm:before {
-  content: "\e609";
+.ico-github:before {
+  content: "\e604";
+}
+
+.ico-user:before {
+  content: "\e602";
+}
+
+.ico-camera:before {
+  content: "\36";
+}
+
+.ico-mobile:before {
+  content: "\35";
+}
+
+.ico-producer:before {
+  content: "\37";
+}
+
+.ico-art:before {
+  content: "\33";
+}
+
+.ico-keyboard:before {
+  content: "\31";
+}
+
+.ico-graphic:before {
+  content: "\32";
+}
+
+.ico-cube:before {
+  content: "\34";
+}
+
+.ico-graduate:before {
+  content: "\67";
 }
 
 .ico-arrow-left {
@@ -499,9 +495,11 @@ a.btn:active, a.btn:focus {
 }
 
 .work-item {
+  width: 100%;
   position: relative;
   float: left;
   overflow: hidden;
+  color: #333333;
   border: 5px solid white;
 }
 .work-item img {
@@ -516,9 +514,6 @@ a.btn:active, a.btn:focus {
 .work-item p {
   font-size: 1em;
   line-height: 1.5em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .work-item i {
   margin-right: 0;
@@ -529,7 +524,10 @@ a.btn:active, a.btn:focus {
 .work-item-description {
   top: 0;
   padding: 10px;
-  background: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #eeeeee;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -562,6 +560,16 @@ a.btn:active, a.btn:focus {
   transition: all 0.3s;
 }
 
+@media (min-width: 640px) {
+  .work-item {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .work-item {
+    width: 33.33333%;
+  }
+}
 nav {
   width: 100%;
   height: 100px;
@@ -758,6 +766,10 @@ img {
   height: auto;
 }
 
+.no-js .lazy {
+  display: none;
+}
+
 .checkbox-hack {
   display: none;
 }
@@ -828,7 +840,7 @@ img {
   }
 }
 #work-filter {
-  padding: 80px 40px;
+  padding: 40px;
 }
 #work-filter i {
   border: 1px solid #333333;
@@ -850,7 +862,7 @@ img {
 
 @media (min-width: 1200px) {
   #work-filter {
-    padding: 120px 0 60px 0;
+    padding: 60px 0;
   }
 }
 .copyright {

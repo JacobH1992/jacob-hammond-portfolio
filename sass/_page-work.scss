@@ -1,5 +1,5 @@
 #work-filter {
-    padding: 80px 40px;
+    padding: 40px;
     i {
         border: 1px solid $dgrey;
         padding: 20px;
@@ -17,6 +17,6 @@
 
 @media ($min_bp_c) {
     #work-filter {
-        padding: 120px 0 60px 0;
+        padding: 60px 0;
     }
 }

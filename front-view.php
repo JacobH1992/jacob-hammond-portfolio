@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html class="no-js">
 <head>
     <?php require_once('includes/head.php'); ?>
 </head>

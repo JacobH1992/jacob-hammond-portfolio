@@ -64,40 +64,36 @@
     <section class="white">
         <div class="align-center section-padding">
             <h1>Recent work</h1>
-            <div id="index-recent-work">
-                <div class="work-item third-margin">
-                    <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
-                    <div class="work-item-description">
-                        <h1>Comfortably Stylish</h2>
-                        <p>Android Mobile App</p>
+            <?php
+                $feed = simplexml_load_file('xml/work.xml');
+                include('php/getData.php');
+
+                $i = 0;
+                foreach($feed->item as $item):    
+                    if (++$i > 3) {
+                        break;
+                    }
+
+                getData($item);
+
+                ?>
+                    <div class="work-item third">
+                        <img src="img/spinner.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
+                        <noscript>
+                            <img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/>
+                        </noscript>                        <div class="work-item-description">
+                            <h1><?= $title; ?></h1>
+                            <p><?= $type; ?></p>
+                        </div>
+                        <div class="work-item-icon">
+                            <i class="ico-"><?= $icon; ?></i>
+                        </div>
                     </div>
-                    <div class="work-item-icon">
-                        <i class="ico-mobile"></i>
-                    </div>
-                </div>
-                <div class="work-item third-margin">
-                    <img src="/img/work/web-design/petebatten.jpg" alt="">
-                    <div class="work-item-description">
-                        <h1>Peter Batten</h2>
-                        <p>Website Design & Development</p>
-                    </div>
-                    <div class="work-item-icon">
-                        <i class="ico-keyboard"></i>
-                    </div>
-                </div>
-                <div class="work-item third-margin">
-                    <img src="/img/work/3d/mosquito.jpg" alt="">
-                    <div class="work-item-description">
-                        <h1>Mosquito</h2>
-                        <p>3D Animation</p>
-                    </div>
-                    <div class="work-item-icon">
-                        <i class="ico-cube"></i>
-                    </div>
-                </div>
-            </div>
+                <?php endforeach;
+            ?>
             <a href="/work" class="btn"><i class="ico-arrow-left"></i>VIEW ALL MY WORK</a>
         </div>
     </section>
+
 
 </main>

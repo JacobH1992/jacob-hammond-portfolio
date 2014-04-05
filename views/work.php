@@ -19,100 +19,35 @@
         </div>
     </section>
 
-
-
     <section class="white">
         <div id="work-items" class="align-center section-padding">
-            <div class="work-item third">
-                <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Comfortably Stylish</h2>
-                    <p>Android Mobile App</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-mobile"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/web-design/petebatten.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Peter Batten</h2>
-                    <p>Website Design & Development</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-keyboard"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/3d/mosquito.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Mosquito</h2>
-                    <p>3D Animation</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-cube"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Comfortably Stylish</h2>
-                    <p>Android Mobile App</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-mobile"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/web-design/petebatten.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Peter Batten</h2>
-                    <p>Website Design & Development</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-keyboard"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/3d/mosquito.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Mosquito</h2>
-                    <p>3D Animation</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-cube"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/mobile-app/comfortably-stylish.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Comfortably Stylish</h2>
-                    <p>Android Mobile App</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-mobile"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/web-design/petebatten.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Peter Batten</h2>
-                    <p>Website Design & Development</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-keyboard"></i>
-                </div>
-            </div>
-            <div class="work-item third">
-                <img src="/img/work/3d/mosquito.jpg" alt="">
-                <div class="work-item-description">
-                    <h1>Mosquito</h2>
-                    <p>3D Animation</p>
-                </div>
-                <div class="work-item-icon">
-                    <i class="ico-cube"></i>
-                </div>
-            </div>
+            <?php    
+                $feed = simplexml_load_file('xml/work.xml');
+                include('php/getData.php');
+                
+                foreach($feed->item as $item):
+                getData($item);
+
+                ?>
+                    <div class="work-item">
+                        <img src="img/spinner.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
+                        <noscript>
+                            <img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/>
+                        </noscript>
+                        <div class="work-item-description">
+                            <h1><?= $title; ?></h1>
+                            <p><?= $type; ?></p>
+                        </div>
+                        <div class="work-item-icon">
+                            <i class="ico-"><?= $icon; ?></i>
+                        </div>
+                    </div>
+                <?php endforeach;
+            ?>
         </div>
     </section>
+
+    
+
+
 </main>

@@ -1,8 +1,10 @@
 .work-item {
+    width: (100%/1);
     position: relative;
     float: left;
     overflow: hidden;
-    border: 5px solid $white;
+    color: $dgrey;
+    border: 5px solid white;
     img {
         width: 100%;
         display: block;
@@ -13,9 +15,6 @@
     }
     p {
         @include adjust-font-size-to(16px);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
     }
     i {
         margin-right: 0;
@@ -26,7 +25,10 @@
 .work-item-description {
     top: 0;
     padding: 10px;
-    background: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: $lgrey;
     @include transition(all .3s);  
 }
 
@@ -49,4 +51,18 @@
     background: $yellow;
     @include opacity(0);
     @include transition(all .3s);
+}
+
+
+@media ($min_bp_a) {
+    .work-item {
+        width: (100%/2);
+    }
+}
+
+@media ($min_bp_c) {
+    .work-item {
+        width: (100%/3);
+    }
+
 }
