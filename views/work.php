@@ -6,7 +6,7 @@
 </header>
 
 <main>
-    <section class="white">
+<!--     <section class="white">
         <div id="work-filter" class="align-center">
             <h3>Filter:</h3>
             <i class="ico-keyboard"></i>
@@ -17,21 +17,19 @@
             <i class="ico-camera"></i>
             <i class="ico-producer"></i>
         </div>
-    </section>
+    </section> -->
 
     <section class="white">
-        <div id="work-items" class="align-center">
+        <div id="work-items" class="align-center section-padding">
             <?php
-                include('php/getData.php');
-                
                 foreach($feed->item as $item):
                 getData($item);
 
                 ?>
                     <a href="/work/<?= $url; ?>">
                         <div class="work-item">
-                            <img src="img/blank.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
-                            <noscript><img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
+                            <img src="img/blank.gif" data-src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
+                            <noscript><img src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
                             <div class="work-item-description">
                                 <h1><?= $title; ?></h1>
                                 <p><?= $type; ?></p>

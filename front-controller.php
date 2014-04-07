@@ -13,11 +13,16 @@ if(empty($path)) {                                  // HOME
     $file = '404';
 }
 
-$isHome = ($q == '');
-$isDetails = preg_match('#^work\/[a-z0-9-]+$#', $q);
+$isHome    = ($q == '');
+$isDetails = preg_match('#^work\/[a-z0-9-]+/?$#', $q);
+$isWork    = preg_match('#^work+/?$#', $q);
 
 if($isDetails) {
     require_once('model-details.php');
+}
+
+if($isWork) {
+    require_once('model-work.php');
 }
 
 require_once('front-view.php');

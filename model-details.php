@@ -1,11 +1,12 @@
 <?php
 
 $urlVars  = explode('/', $q);
-$url = $urlVars[2];
+$detailsUrl = $urlVars[1];
 
 require_once('php/getData.php');
+getDetails($detailsUrl);
 
-if($env) {
+if($isDetails) {
     $file = 'details';
 } else {
     $file = '404';
