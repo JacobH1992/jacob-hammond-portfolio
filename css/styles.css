@@ -507,9 +507,10 @@ a.btn:active, a.btn:focus {
   display: block;
 }
 .work-item h1 {
+  margin-bottom: 0;
   font-size: 1.125em;
   line-height: 1.33333em;
-  margin-bottom: 0;
+  font-weight: 400;
 }
 .work-item p {
   font-size: 1em;
@@ -561,11 +562,6 @@ a.btn:active, a.btn:focus {
 }
 
 @media (min-width: 640px) {
-  .work-item {
-    width: 50%;
-  }
-}
-@media (min-width: 1200px) {
   .work-item {
     width: 33.33333%;
   }
@@ -810,9 +806,15 @@ img {
   width: 100%;
   padding: 80px 20px;
 }
+#index-header-text h2 i {
+  margin-right: 0;
+}
 
 #index-about p {
   margin-bottom: 20px;
+}
+#index-about h2 i {
+  margin-right: 0;
 }
 
 .list {
@@ -844,13 +846,13 @@ img {
   }
 }
 #work-filter {
-  padding: 40px;
+  padding: 20px;
 }
 #work-filter i {
   border: 1px solid #333333;
   padding: 20px;
-  font-size: 1.5em;
-  line-height: 1.25em;
+  font-size: 1.25em;
+  line-height: 1.2em;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -861,7 +863,15 @@ img {
 }
 
 #work-items {
-  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+.header-work {
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+.header-work img {
+  display: block;
 }
 
 @media (min-width: 1200px) {

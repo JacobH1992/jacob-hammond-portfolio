@@ -5,11 +5,21 @@
 #index-header-text {
     width: 100%;
     padding: 80px 20px;
+    h2 {
+        i {
+            margin-right: 0;
+        }
+    }
 }
 
 #index-about {
     p {
         margin-bottom: 20px;
+    }    
+    h2 {
+        i {
+            margin-right: 0;
+        }
     }
 }
 

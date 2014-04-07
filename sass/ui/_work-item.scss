@@ -8,10 +8,11 @@
     img {
         width: 100%;
         display: block;
-    }    
+    }   
     h1 {
-        @include adjust-font-size-to(18px);
         margin-bottom: 0;
+        @include adjust-font-size-to(18px);
+        font-weight: 400;
     }
     p {
         @include adjust-font-size-to(16px);
@@ -53,16 +54,8 @@
     @include transition(all .3s);
 }
 
-
 @media ($min_bp_a) {
-    .work-item {
-        width: (100%/2);
-    }
-}
-
-@media ($min_bp_c) {
     .work-item {
         width: (100%/3);
     }
-
 }

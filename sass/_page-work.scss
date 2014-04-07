@@ -1,9 +1,9 @@
 #work-filter {
-    padding: 40px;
+    padding: 20px;
     i {
         border: 1px solid $dgrey;
         padding: 20px;
-        @include adjust-font-size-to(24px);
+        @include adjust-font-size-to(20px);
         @include transition(all .3s);
         &:hover {
             background: $yellow;
@@ -12,7 +12,15 @@
 }
 
 #work-items {
-    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.header-work {
+    padding-top: 80px;
+    padding-bottom: 0;
+    img {
+        display: block;
+    }
 }
 
 @media ($min_bp_c) {

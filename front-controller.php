@@ -3,7 +3,7 @@
 
 $q = $_GET['q'];
 
-$path = preg_replace('/\/$|.php/', '', $q);
+$path = preg_replace('#\/$|.php#', '', $q);
 
 if(empty($path)) {                                  // HOME
     $file = 'index';
@@ -14,5 +14,10 @@ if(empty($path)) {                                  // HOME
 }
 
 $isHome = ($q == '');
+$isDetails = preg_match('#^work\/[a-z0-9-]+$#', $q);
+
+if($isDetails) {
+    require_once('model-details.php');
+}
 
 require_once('front-view.php');

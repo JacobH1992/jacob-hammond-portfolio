@@ -1,6 +1,7 @@
 <?php
+    $feed = simplexml_load_file('xml/work.xml');
     function getData($item) {
-        global $title, $imgSmall, $icon, $type;
+        global $title, $imgSmall, $url, $icon, $type;
 
         $imgSmall = $item[0]->imgSmall;
         $title    = $item[0]->title;
@@ -30,4 +31,9 @@
                 $type = "Website Production";
                 break;
         }
+    }
+
+    function getDetails($url) {
+
+        //xpath
     }

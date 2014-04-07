@@ -65,7 +65,6 @@
         <div class="align-center section-padding">
             <h1>Recent work</h1>
             <?php
-                $feed = simplexml_load_file('xml/work.xml');
                 include('php/getData.php');
 
                 $i = 0;
@@ -76,18 +75,20 @@
 
                 getData($item);
 
-                ?>
-                    <div class="work-item third">
-                        <img src="img/blank.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
-                        <noscript><img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
-                        <div class="work-item-description">
-                            <h1><?= $title; ?></h1>
-                            <p><?= $type; ?></p>
+                ?>  
+                    <a href="work/<?= $url; ?>">
+                        <div class="work-item third">
+                            <img src="img/blank.gif" data-src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
+                            <noscript><img src="<?= $imgSmall; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
+                            <div class="work-item-description">
+                                <h1><?= $title; ?></h1>
+                                <p><?= $type; ?></p>
+                            </div>
+                            <div class="work-item-icon">
+                                <i class="ico-"><?= $icon; ?></i>
+                            </div>
                         </div>
-                        <div class="work-item-icon">
-                            <i class="ico-"><?= $icon; ?></i>
-                        </div>
-                    </div>
+                    </a>
                 <?php endforeach;
             ?>
             <a href="/work" class="btn"><i class="ico-arrow-left"></i>VIEW ALL MY WORK</a>
