@@ -1,103 +1,190 @@
 <xml>
+
     <item url="cell-industries">
         <icon>1</icon>
         <title>Cell Industries</title>
-        <imgThumb>/img/work/web/thumb/cell-industries.jpg</imgThumb>
+        <description>Cell Industries was created as part of my Final Year Project in my final year of university. I was the lead designer and a front-end developer. The idea was to unite modern web technologies into one website.</description>
+        <img>
+            <imgThumb>/img/work/web/thumb/cell-industries.jpg</imgThumb>
+            <imgLarge1>/img/work/web/large/cell-industries.jpg</imgLarge1>
+            <imgLarge2>/img/work/web/large/cell-industries2.jpg</imgLarge2>
+        </img>
     </item>
+
     <item url="comfortably-stylish">
         <icon>5</icon>
         <title>Comfortably Stylish</title>
-        <imgThumb>/img/work/mobile-app/thumb/comfortably-stylish.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/mobile-app/thumb/comfortably-stylish.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="mosquito-animation">
         <icon>4</icon>
         <title>Mosquito 3D Animation</title>
-        <imgThumb>/img/work/3d/thumb/mosquito.jpg</imgThumb>
-        <video>//www.youtube.com/embed/lnrNfx1zMGA</video>
+        <description>A Victorian robot/steampunk mosquito with a taste for ink. Made for my university module 3D Computer Animation Pipeline (EL368) at the University of Kent.</description>
+        <video>
+            <![CDATA[
+            <div class="description-video">
+                <iframe width="1000" height="520" src="//www.youtube.com/embed/lnrNfx1zMGA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            ]]>
+        </video>
+        <img>
+            <imgThumb>/img/work/3d/thumb/mosquito.jpg</imgThumb>
+            <imgLarge1>/img/work/3d/large/mosquito.jpg</imgLarge1>
+        </img>
     </item>
+
     <item url="peter-batten">
         <icon>1</icon>
         <title>Peter Batten</title>
-        <imgThumb>/img/work/web/thumb/petebatten.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/petebatten.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="magic-show">
         <icon>4</icon>
         <title>Magic Show</title>
-        <imgThumb>/img/work/3d/thumb/magic-show.jpg</imgThumb>
-        <video></video>
+        <video>
+            <![CDATA[
+            <div class="description-video">
+                <iframe width="1000" height="520" src="//www.youtube.com/embed/dT71KC4Iow8" frameborder="0" allowfullscreen></iframe>
+            </div>
+            ]]>
+        </video>
+        <img>
+            <imgThumb>/img/work/3d/thumb/magic-show.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="precise-pixels-v2">
         <icon>1</icon>
         <title>Precise Pixels v2</title>
-        <imgThumb>/img/work/web/thumb/ppixels2.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/ppixels2.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="mickeys-rockin-roadshow">
         <icon>1</icon>
         <title>Mickeys Rockin' Roadshow</title>
-        <imgThumb>/img/work/web/thumb/mickeysrockinroadshow.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/mickeysrockinroadshow.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="madagascar3">
         <icon>1</icon>
         <title>Madagascar 3 Competition</title>
-        <imgThumb>/img/work/web/thumb/madagascar3.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/madagascar3.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="disney-characters">
         <icon>7</icon>
         <title>Disney Characters Page</title>
-        <imgThumb>/img/work/production/thumb/disney-characters.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/production/thumb/disney-characters.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="paperfx">
         <icon>1</icon>
         <title>Paper FX Competition</title>
-        <imgThumb>/img/work/web/thumb/paperfx.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/paperfx.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="gravityfalls">
         <icon>7</icon>
         <title>Disney XD Gravity Falls</title>
-        <imgThumb>/img/work/production/thumb/gravityfalls.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/production/thumb/gravityfalls.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="bhc3">
         <icon>1</icon>
         <title>Beverly Hills Chihuahua 3</title>
-        <imgThumb>/img/work/web/thumb/bhc3.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/bhc3.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="bafta-kids-vote">
         <icon>1</icon>
         <title>Bafta Kids' Vote</title>
-        <imgThumb>/img/work/web/thumb/baftakidsvote.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/baftakidsvote.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="gelarti">
         <icon>1</icon>
         <title>Gelarti Competition</title>
-        <imgThumb>/img/work/web/thumb/gelarti.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/gelarti.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="brave">
         <icon>1</icon>
         <title>Pixar Brave Competition</title>
-        <imgThumb>/img/work/web/thumb/brave-competition.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/brave-competition.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="robot">
         <icon>4</icon>
         <title>Medi Robot</title>
-        <imgThumb>/img/work/3d/thumb/robot.jpg</imgThumb>
-        <video></video>
+        <video>
+            <![CDATA[
+            <div class="description-video">
+                <iframe width="1000" height="520" src="//www.youtube.com/embed/cdb6beaRru8" frameborder="0" allowfullscreen></iframe>
+            </div>
+            ]]>
+        </video>
+        <img>
+            <imgThumb>/img/work/3d/thumb/robot.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="precise-pixels-v1">
         <icon>1</icon>
         <title>Precise Pixels v1</title>
-        <imgThumb>/img/work/web/thumb/ppixels1.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/ppixels1.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="peking">
         <icon>1</icon>
         <title>Peking Restaurant</title>
-        <imgThumb>/img/work/web/thumb/peking.jpg</imgThumb>
+        <img>
+            <imgThumb>/img/work/web/thumb/peking.jpg</imgThumb>
+        </img>
     </item>
+
     <item url="spaceship-race">
         <icon>4</icon>
         <title>Spaceship Race</title>
-        <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
-        <video></video>
+        <video>
+            <![CDATA[
+            <div class="description-video">
+                <iframe width="1000" height="520" src="//www.youtube.com/embed/Y1LEp_zfcfw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            ]]>
+        </video>
+        <img>
+            <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
+        </img>
     </item>
+
 </xml>
 
 <!-- 

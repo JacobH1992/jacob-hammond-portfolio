@@ -1,14 +1,18 @@
 <?php
     $feed = simplexml_load_file('xml/work.xml');
     function getData($item) {        
-        global $title, $imgThumb, $url, $icon, $type, $video;
+        global $title, $imgThumb, $url, $icon, $type, $description, 
+        $video, $imgLarge1, $imgLarge2;
 
-        $imgThumb = $item[0]->imgThumb;
+        $imgThumb = $item[0]->img->imgThumb;
         $title    = $item[0]->title;
         $url      = $item[0]->attributes()->url;
         $icon     = $item[0]->icon;
 
-        $video    = $item[0]->video;
+        $description = $item[0]->description;
+        $video       = $item[0]->video;
+        $imgLarge1   = $item[0]->img->imgLarge1; 
+        $imgLarge2   = $item[0]->img->imgLarge2;
 
         switch ($icon) {
             case "1":

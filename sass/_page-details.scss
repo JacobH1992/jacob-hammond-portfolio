@@ -1,0 +1,18 @@
+.details-header {
+    h1 {
+        @include adjust-font-size-to(42px);
+        margin-bottom: 0;
+    }
+    h2 {
+        @include adjust-font-size-to(26px);
+        padding-bottom: 20px;
+    }
+}
+
+.description-video {
+    margin-bottom: 40px;
+}
+
+@media ($min_bp_a) {
+    padding-bottom: 0;
+}
