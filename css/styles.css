@@ -150,6 +150,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "\48";
 }
 
+.ico-link:before {
+  content: "\6c";
+}
+
 .ico-twitter:before {
   content: "\e605";
 }
@@ -200,6 +204,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .ico-graphic:before {
   content: "\32";
+}
+
+.ico-info:before {
+  content: "\69";
 }
 
 .ico-cube:before {
@@ -596,6 +604,7 @@ nav a {
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
+  cursor: pointer;
 }
 nav a:active, nav a:focus {
   outline: none;
@@ -888,15 +897,40 @@ img {
   font-size: 1.625em;
   line-height: 1.15385em;
   padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.details-description {
+  margin-top: 40px;
+}
+
+.details-link {
+  font-size: 1.625em;
+  line-height: 1.15385em;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 200;
 }
 
 .description-video {
+  height: 0;
+  position: relative;
   margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  overflow: hidden;
 }
 
-@media (min-width: 640px) {
-  padding-bottom: 0;
+.description-video iframe,
+.description-video object,
+.description-video embed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
 .copyright {
   margin-top: 40px;
   font-size: 0.875em;

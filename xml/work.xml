@@ -3,11 +3,16 @@
     <item url="cell-industries">
         <icon>1</icon>
         <title>Cell Industries</title>
-        <description>Cell Industries was created as part of my Final Year Project in my final year of university. I was the lead designer and a front-end developer. The idea was to unite modern web technologies into one website.</description>
+        <description>
+            <![CDATA[
+            <p>Cell Industries was created as my Final Year Project in my final year of university with <a href="http://jalproductions.co.uk/">James Lee</a> and <a href="http://faooful.com/">Joseph Williams</a>. I was the lead designer and a front-end developer.</p>
+            <p>The idea was to unite modern web technologies in one website and use 3D and modern design techniques to enhance the visuals of the website and to experiment with new ways of interacting with the web. We used the facade of Cell Industries to allow us to use all these technologies and techniques for a single purpose.</p>
+            <p>The key feature was the 'cloning process'. By combining Google Elevation API, Google Static Maps API and ThreeJS, we automatically generate and display 3D topographical representations of real-world areas using only code.</p>
+            ]]>
+        </description>
         <img>
             <imgThumb>/img/work/web/thumb/cell-industries.jpg</imgThumb>
             <imgLarge1>/img/work/web/large/cell-industries.jpg</imgLarge1>
-            <imgLarge2>/img/work/web/large/cell-industries2.jpg</imgLarge2>
         </img>
     </item>
 
@@ -47,6 +52,7 @@
     <item url="magic-show">
         <icon>4</icon>
         <title>Magic Show</title>
+        <description>A magic show created using 3D and compositing software and a green screen. Made for my university module Visual Effects and Compositing (EL635) at the University of Kent.</description>
         <video>
             <![CDATA[
             <div class="description-video">
@@ -56,6 +62,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/magic-show.jpg</imgThumb>
+            <imgLarge1>/img/work/3d/large/magic-show.jpg</imgLarge1>
         </img>
     </item>
 
@@ -70,8 +77,10 @@
     <item url="mickeys-rockin-roadshow">
         <icon>1</icon>
         <title>Mickeys Rockin' Roadshow</title>
+        <description>A competition page build for Disney Live! Mickey's Rockin' Road Show. I was tasked with designing and coding the page whilst adhering to Disney's style guides.</description>
         <img>
             <imgThumb>/img/work/web/thumb/mickeysrockinroadshow.jpg</imgThumb>
+            <imgLarge1>/img/work/web/large/mickeysrockinroadshow.jpg</imgLarge1>
         </img>
     </item>
 
@@ -142,6 +151,7 @@
     <item url="robot">
         <icon>4</icon>
         <title>Medi Robot</title>
+        <description>A 3D robot animation and my second ever 3D animation. Made for my university module Virtual Worlds and 3D Modelling (EL635) at the University of Kent.</description>
         <video>
             <![CDATA[
             <div class="description-video">
@@ -151,6 +161,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/robot.jpg</imgThumb>
+            <imgLarge1>/img/work/3d/large/robot.jpg</imgLarge1>
         </img>
     </item>
 
@@ -173,6 +184,7 @@
     <item url="spaceship-race">
         <icon>4</icon>
         <title>Spaceship Race</title>
+        <description>My first attempt at 3D Modelling and Animation. Made during my second year of university.</description>
         <video>
             <![CDATA[
             <div class="description-video">
@@ -182,6 +194,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
+            <imgLarge1>/img/work/3d/large/spaceshiprace.jpg</imgLarge1>
         </img>
     </item>
 

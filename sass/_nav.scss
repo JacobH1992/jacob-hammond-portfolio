@@ -22,6 +22,7 @@ nav {
     }
     a {
         @include unstyled-link;
+        cursor: pointer;
     }
 }
 
