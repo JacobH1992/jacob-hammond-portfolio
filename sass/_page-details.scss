@@ -11,12 +11,23 @@
 }
 
 .details-description {
+    ul {
+        margin-left: -5px;
+    }
+    li {
+        margin: 5px 5px;
+        display: inline-block;
+        font-weight: 200;
+    }
+}
+
+.details-description-technologies {
     margin-top: 40px;
+    font-weight: 400;
 }
 
 .details-link {
-    @include adjust-font-size-to(26px);
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     font-weight: 200;
 }
@@ -40,7 +51,16 @@
     left: 0;
 }
 
+.description-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media ($min_bp_a) {
+    .details-description {
+        margin-top: 0;
+    }
 }
 
 @media ($min_bp_c) {

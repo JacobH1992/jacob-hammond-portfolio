@@ -246,7 +246,7 @@ h1 {
 h2 {
   font-family: "modumregular";
   font-size: 1.625em;
-  line-height: 1.15385em;
+  line-height: 1.23077em;
   margin-bottom: 40px;
 }
 
@@ -262,7 +262,7 @@ a {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .white a {
@@ -336,7 +336,7 @@ a {
 
   h1 {
     font-size: 3.875em;
-    line-height: 1.06452em;
+    line-height: 1.16129em;
   }
 
   h2 {
@@ -346,7 +346,7 @@ a {
 
   h3 {
     font-size: 1.5em;
-    line-height: 1.25em;
+    line-height: 1.33333em;
   }
 }
 .full {
@@ -527,7 +527,7 @@ a.btn:active, a.btn:focus {
 .work-item i {
   margin-right: 0;
   font-size: 1.375em;
-  line-height: 1.36364em;
+  line-height: 1.45455em;
 }
 
 .work-item-description {
@@ -598,16 +598,21 @@ nav ul {
 nav li {
   padding: 0 40px;
   font-weight: 600;
-  line-height: 80px;
+  line-height: 40px;
 }
 nav a {
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
   cursor: pointer;
+  font-weight: 600;
 }
 nav a:active, nav a:focus {
   outline: none;
+}
+
+.nav-small nav {
+  height: 50px;
 }
 
 #nav-logo {
@@ -658,7 +663,7 @@ nav a:active, nav a:focus {
 #site-nav-toggle:checked ~ #site-nav-btn:before {
   content: 'x';
   font-size: 2em;
-  line-height: 1.125em;
+  line-height: 1.25em;
   line-height: 100px;
 }
 
@@ -724,7 +729,7 @@ nav a:active, nav a:focus {
 
 html {
   font-family: "Roboto", Arial, Sans-Serif;
-  line-height: 1.5em;
+  line-height: 2em;
   color: #1e435d;
   text-rendering: optimizelegibility;
 }
@@ -733,7 +738,7 @@ html * html {
 }
 html html {
   font-size: 16px;
-  line-height: 0.375em;
+  line-height: 0.5em;
 }
 
 main {
@@ -895,19 +900,27 @@ img {
 }
 .details-header h2 {
   font-size: 1.625em;
-  line-height: 1.15385em;
+  line-height: 1.23077em;
   padding-bottom: 20px;
   margin-bottom: 0;
 }
 
-.details-description {
+.details-description ul {
+  margin-left: -5px;
+}
+.details-description li {
+  margin: 5px 5px;
+  display: inline-block;
+  font-weight: 200;
+}
+
+.details-description-technologies {
   margin-top: 40px;
+  font-weight: 400;
 }
 
 .details-link {
-  font-size: 1.625em;
-  line-height: 1.15385em;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
   font-weight: 200;
 }
@@ -931,8 +944,19 @@ img {
   left: 0;
 }
 
+.description-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .details-description {
+    margin-top: 0;
+  }
+}
 .copyright {
   margin-top: 40px;
   font-size: 0.875em;
-  line-height: 1.28571em;
+  line-height: 1.71429em;
 }

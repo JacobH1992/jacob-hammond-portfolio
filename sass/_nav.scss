@@ -18,11 +18,18 @@ nav {
     li {
         padding: 0 40px;
         font-weight: 600;
-        line-height: 80px;
+        line-height: 40px;
     }
     a {
         @include unstyled-link;
         cursor: pointer;
+        font-weight: 600;
+    }
+}
+
+.nav-small {
+    nav {
+        height: 50px;
     }
 }
 

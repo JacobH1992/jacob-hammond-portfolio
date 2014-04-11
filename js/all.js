@@ -12,7 +12,7 @@ window.addEventListener('scroll', function () {
 
 function changeNavbarBkg() {
     if (position >= target) {
-        navBar.className = 'blue';
+        navBar.className = 'blue nav-small';
     } else {
         navBar.className = 'white';
     }
@@ -24,7 +24,6 @@ function changeNavbarBkg() {
  * expects a list of:  
  * `<img src="blank.gif" data-src="my_image.png" width="600" height="400" class="lazy">`
  */
-
 !function(window){
   var $q = function(q, res){
         if (document.querySelectorAll) {

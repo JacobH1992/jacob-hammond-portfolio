@@ -7,45 +7,43 @@
 
 <main id="details-main">
 
+PHP if e.g. ($icon = 1)
+
+include e.g. web.php for web layout / 3d.php etc.
+
     <section class="white">
         <div class="align-center section-padding">
-            <?= $video; ?>
-            <div class="half-margin">
+            <div class="details-description half-margin">
                 <h3><i class="ico-info"></i>About</h3>
                 <?= $description; ?>
-                <h3>Technologies used:</h3>
+                <p class="details-description-technologies">Technologies used:</p>
                 <ul>
-                    <li>WebGL</li>
-                    <li>ThreeJS</li>
-                    <li>WebRTC webcam gestures</li>
-                    <li>Google Elevation API</li>
-                    <li>Google Static Maps API</li>
-                    <li>PHP MVC</li>
-                    <li>Login system</li>
-                    <li>Checkbox hack</li>
-                    <li>Feature detection</li>
-                    <li>Font icons</li>
-                    <li>Mobile first</li>
-                    <li>Responsive</li>
-                    <li>Sass</li>
+                    <li>WebGL,</li>
+                    <li>ThreeJS,</li>
+                    <li>WebRTC webcam gestures,</li>
+                    <li>Google Elevation API,</li>
+                    <li>Google Static Maps API,</li>
+                    <li>PHP MVC,</li>
+                    <li>Login system,</li>
+                    <li>Checkbox hack,</li>
+                    <li>Feature detection,</li>
+                    <li>Font icons,</li>
+                    <li>Mobile first responsive,</li>
+                    <li>Sass.</li>
                 </ul>
-            </div>   
-            <div class="half-margin">
-                <img src="<?= $imgLarge1; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="description-image"/>
-                <div class="details-link">
-                    <a href="htt://cell-industries.co.uk/">cell-industries.co.uk</a>
-                </div>
+                <a href="http://cell-industries.co.uk/" class="details-link btn"><i class="ico-link"></i>VISIT SITE</a>     
             </div>
+            <div class="half-margin">
+                <?= $video; ?>
+                <img src="<?= $imgLarge1; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="description-image"/>
+            </div> 
+<!--             <div class="half-margin">
+            </div> -->
         </div>
     </section>
-            <div class="details-description section-content-wrapper">
-                <div class="half-margin">
-                    <h3>Technologies used:</h3>
-                </div>
-            </div>
 
     <section class="yellow">
-        <div class="align-center section-padding">    
+        <div class="align-center section-padding">
 
         </div>
     </section>
