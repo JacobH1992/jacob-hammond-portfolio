@@ -14,14 +14,14 @@ a.btn {
 }
 
 .blue a.btn {
-    color: $yellow;
+    color: $white;
 }
 
 .blue .btn {
-    border: 1px solid $yellow;
-    color: $yellow;
+    border: 1px solid $white;
+    color: $white;
     &:hover {
-        background: $yellow;
+        background: $white;
         color: $blue;
     }
 }

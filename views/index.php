@@ -91,7 +91,7 @@
                     </a>
                 <?php endforeach;
             ?>
-            <a href="/work" class="btn"><i class="ico-arrow-left"></i>VIEW ALL MY WORK</a>
+            <a href="/work" class="index-work-btn btn"><i class="ico-arrow-left"></i>VIEW ALL MY WORK</a>
         </div>
     </section>
 
