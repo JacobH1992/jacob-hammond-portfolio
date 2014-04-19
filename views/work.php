@@ -1,5 +1,5 @@
 <header class="blue">
-    <div class="align-center section-padding">
+    <div class="align-center section-padding wow bounceInDown">
         <h1>Work</h1>
         <h2>Here is a selection of my work.</h2>
     </div>
@@ -18,7 +18,6 @@
             <i class="ico-producer"></i>
         </div>
     </section> -->
-
     <section class="white">
         <div id="work-items" class="align-center section-padding">
             <?php
@@ -27,7 +26,7 @@
 
                 ?>
                     <a href="/work/<?= $url; ?>">
-                        <div class="work-item">
+                        <div class="work-item wow flipInX" data-wow-offset="200">
                             <img src="img/blank.gif" data-src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
                             <noscript><img src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
                             <div class="work-item-description">

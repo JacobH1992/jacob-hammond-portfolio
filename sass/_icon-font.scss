@@ -26,6 +26,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.ico-logo:before {
+    content: "\6a";
+}
 .ico-languages:before {
     content: "\63";
 }
@@ -36,7 +39,7 @@
     content: "\62";
 }
 .ico-skills:before {
-    content: "\e601";
+    content: "\73";
 }
 .ico-close:before {
     content: "\78";

@@ -8,8 +8,30 @@
     h2 {
         i {
             margin-right: 0;
+            color: #ff9999;
+            -webkit-animation: hueRotate 20s infinite;
+            -moz-animation:    hueRotate 20s infinite;
+            -o-animation:      hueRotate 20s infinite;
+            animation:         hueRotate 20s infinite;
         }
     }
+}
+
+@-webkit-keyframes hueRotate {
+    0%     { @include filter(hue-rotate(0deg)); }
+    100%   { @include filter(hue-rotate(1080deg)); }
+}
+@-o-keyframes hueRotate {
+    0%     { @include filter(hue-rotate(0deg)); }
+    100%   { @include filter(hue-rotate(1080deg)); }
+}
+@-moz-keyframes hueRotate {
+    0%     { @include filter(hue-rotate(0deg)); }
+    100%   { @include filter(hue-rotate(1080deg)); }
+}
+@keyframes hueRotate {
+    0%     { @include filter(hue-rotate(0deg)); }
+    100%   { @include filter(hue-rotate(1080deg)); }
 }
 
 #index-about {
@@ -20,6 +42,11 @@
         i {
             margin-right: 0;
         }
+    }
+    img {
+        border-radius: 50%;
+        width: 150px;
+        margin-right: 20px;
     }
 }
 

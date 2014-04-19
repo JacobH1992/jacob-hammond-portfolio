@@ -5,13 +5,30 @@
         <title>Cell Industries</title>
         <description>
             <![CDATA[
-            <p>Cell Industries was created as my Final Year Project in my final year of university with <a href="http://jalproductions.co.uk/">James Lee</a> and <a href="http://faooful.com/">Joseph Williams</a>. I was the lead designer and a front-end developer. The idea was to unite modern web technologies in one website and use 3D and modern design techniques to enhance the visuals of the website and to experiment with new ways of interacting with the web. We used the facade of Cell Industries to allow us to use all these technologies and techniques for a single purpose.</p>
-            <p>The key feature was the 'cloning process'. By combining Google Elevation API, Google Static Maps API and ThreeJS, we automatically generate and display 3D topographical representations of real-world areas using only code.</p>
+            Cell Industries was created as my Final Year Project in my final year of university with <a href="http://jalproductions.co.uk/">James Lee</a> and <a href="http://faooful.com/">Joseph Williams</a>. I was the lead designer and a front-end developer. The idea was to unite modern web technologies in one website and use 3D and modern design techniques to enhance the visuals of the website and to experiment with new ways of interacting with the web. We used the facade of Cell Industries to allow us to use all these technologies and techniques for a single purpose.</p>
+            <p>The key feature was the 'cloning process'. By combining Google Elevation API, Google Static Maps API and ThreeJS, we automatically generate and display 3D topographical representations of real-world areas using only code.
             ]]>
         </description>
+        <technologies>
+            <![CDATA[
+                <li>WebGL,</li>
+                <li>ThreeJS,</li>
+                <li>WebRTC webcam gestures,</li>
+                <li>Google Elevation API,</li>
+                <li>Google Static Maps API,</li>
+                <li>PHP MVC,</li>
+                <li>Login system,</li>
+                <li>Checkbox hack,</li>
+                <li>Feature detection,</li>
+                <li>Font icons,</li>
+                <li>Mobile first responsive,</li>
+                <li>Sass.</li>
+            ]]>
+        </technologies>
+        <link>http://www.cell-industries.co.uk/</link>
         <img>
             <imgThumb>/img/work/web/thumb/cell-industries.jpg</imgThumb>
-            <imgLarge1>/img/work/web/large/cell-industries.jpg</imgLarge1>
+            <imgLarge>/img/work/web/large/cell-industries.jpg</imgLarge>
         </img>
     </item>
 
@@ -36,7 +53,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/mosquito.jpg</imgThumb>
-            <imgLarge1>/img/work/3d/large/mosquito.jpg</imgLarge1>
+            <imgLarge>/img/work/3d/large/mosquito.jpg</imgLarge>
         </img>
     </item>
 
@@ -61,7 +78,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/magic-show.jpg</imgThumb>
-            <imgLarge1>/img/work/3d/large/magic-show.jpg</imgLarge1>
+            <imgLarge>/img/work/3d/large/magic-show.jpg</imgLarge>
         </img>
     </item>
 
@@ -77,13 +94,12 @@
         <icon>1</icon>
         <title>Mickeys Rockin' Roadshow</title>
         <description>
-            <![CDATA[
-            <p>A competition page build for Disney Live! Mickey's Rockin' Road Show. I was tasked with designing and coding the page whilst adhering to Disney's style guides.</p>
-            ]]>
+            A competition page build for Disney Live! Mickey's Rockin' Road Show. I was tasked with designing and coding the page whilst adhering to Disney's style guides.
         </description>
+        <link>http://www.cell-industries.co.uk/</link>
         <img>
             <imgThumb>/img/work/web/thumb/mickeysrockinroadshow.jpg</imgThumb>
-            <imgLarge1>/img/work/web/large/mickeysrockinroadshow.jpg</imgLarge1>
+            <imgLarge>/img/work/web/large/mickeysrockinroadshow.jpg</imgLarge>
         </img>
     </item>
 
@@ -164,7 +180,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/robot.jpg</imgThumb>
-            <imgLarge1>/img/work/3d/large/robot.jpg</imgLarge1>
+            <imgLarge>/img/work/3d/large/robot.jpg</imgLarge>
         </img>
     </item>
 
@@ -197,7 +213,7 @@
         </video>
         <img>
             <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
-            <imgLarge1>/img/work/3d/large/spaceshiprace.jpg</imgLarge1>
+            <imgLarge>/img/work/3d/large/spaceshiprace.jpg</imgLarge>
         </img>
     </item>
 

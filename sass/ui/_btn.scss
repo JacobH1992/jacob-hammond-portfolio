@@ -11,6 +11,7 @@
 a.btn {
     font-weight: 200;
     @include unstyled-link;
+    cursor: pointer;
 }
 
 .blue a.btn {

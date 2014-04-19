@@ -7,7 +7,7 @@ nav {
     z-index: 2;
     @include transition(all .5s);
     ul {
-        width: 50%;
+        width: auto;
         height: 100%;
         position: fixed;
         top: 100px;
@@ -16,14 +16,16 @@ nav {
         background: $white;
     }
     li {
-        padding: 0 40px;
+        padding: 20px 20px;
         font-weight: 600;
         line-height: 40px;
-    }
-    a {
-        @include unstyled-link;
-        cursor: pointer;
-        font-weight: 600;
+        a {
+            @include unstyled-link;
+            cursor: pointer;
+            font-weight: 600;
+            padding: 20px;
+            width: 100%;
+        }
     }
 }
 
@@ -37,8 +39,8 @@ nav {
     float: left;
     padding: 0 20px;
     h1 {
-        @include adjust-font-size-to(42px);
-        line-height: 100px;
+        @include adjust-font-size-to(52px);
+        line-height: 106px;
     }
 }
 
@@ -49,6 +51,18 @@ nav {
 .blue #site-nav {
     background: $blue;
 }
+
+// .white #site-nav li:hover {
+//     background: $lgrey;
+// }
+
+// .blue #site-nav li:hover {
+//     background: $yellow;
+//     a {
+
+//     color: $blue;
+//     }
+// }
 
 #site-nav-btn {
     width: 100px;
@@ -95,8 +109,12 @@ nav {
             @include horizontal-list-container;
         }
         li {
+            padding: 0 40px;
             @include horizontal-list-item(20px, left);
             line-height: 100px;
+            a {
+                padding: 5px 5px;
+            }
         }
     }
 
