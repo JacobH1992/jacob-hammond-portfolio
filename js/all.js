@@ -12,7 +12,7 @@ window.addEventListener('scroll', function () {
 
 function changeNavbarBkg() {
     if (position >= target) {
-        navBar.className = 'blue nav-small';
+        navBar.className = 'blue';
     } else {
         navBar.className = 'white';
     }

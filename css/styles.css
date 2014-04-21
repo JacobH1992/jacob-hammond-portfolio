@@ -222,6 +222,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "\67";
 }
 
+.ico-grid:before {
+  content: "\47";
+}
+
 .ico-arrow-left {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -231,6 +235,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .ico-arrow-left:before {
+  content: "\5e";
+}
+
+.ico-arrow-right {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.ico-arrow-right:before {
   content: "\5e";
 }
 
@@ -466,6 +482,7 @@ a {
   *display: inline;
   cursor: pointer;
   white-space: nowrap;
+  border-radius: 5px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -510,10 +527,10 @@ a.btn:active, a.btn:focus {
 .work-item {
   width: 100%;
   position: relative;
+  padding: 0 0 10px 0;
   float: left;
   overflow: hidden;
   color: #333333;
-  padding: 0 0 10px 0;
 }
 .work-item img {
   width: 100%;
@@ -522,6 +539,7 @@ a.btn:active, a.btn:focus {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  border-radius: 4px 4px 0 0;
 }
 .work-item h1 {
   margin-bottom: 0;
@@ -603,11 +621,11 @@ nav {
   transition: all 0.5s;
 }
 nav ul {
-  width: auto;
+  width: 200px;
   height: 100%;
   position: fixed;
   top: 100px;
-  right: -50%;
+  right: -200px;
   text-align: right;
   background: white;
 }
@@ -848,11 +866,11 @@ img {
 }
 #index-header-text h2 i {
   margin-right: 0;
-  color: #ff9999;
-  -webkit-animation: hueRotate 20s infinite;
-  -moz-animation: hueRotate 20s infinite;
-  -o-animation: hueRotate 20s infinite;
-  animation: hueRotate 20s infinite;
+  color: #ff66cc;
+  -webkit-animation: hueRotate 30s infinite;
+  -moz-animation: hueRotate 30s infinite;
+  -o-animation: hueRotate 30s infinite;
+  animation: hueRotate 30s infinite;
 }
 
 @-webkit-keyframes hueRotate {
@@ -996,6 +1014,9 @@ img {
   margin-bottom: 0;
 }
 
+.details-description {
+  overflow: hidden;
+}
 .details-description ul {
   margin-left: -5px;
 }
@@ -1036,18 +1057,105 @@ img {
 }
 
 .description-image {
+  margin-top: 40px;
+}
+.description-image img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 15px;
+}
+
+.description-image--web {
+  margin-top: 60px;
+}
+
+.description-image--mobile {
+  margin-top: 60px;
+}
+
+#details-navigation {
+  text-align: center;
+}
+#details-navigation .btn {
+  margin-top: 0;
+}
+#details-navigation .btn--previous {
+  float: left;
+}
+#details-navigation .btn--previous i {
+  margin-right: 0;
+}
+#details-navigation .btn--text {
+  display: none;
+}
+#details-navigation .btn--work i {
+  margin-right: 0;
+}
+#details-navigation .btn--next {
+  float: right;
+}
+#details-navigation .btn--next i {
+  margin-right: 0;
 }
 
 @media (min-width: 640px) {
   .details-description {
     margin-top: 0;
   }
+
+  .description-image--web {
+    margin-top: 0;
+  }
+
+  #details-navigation .btn--text {
+    display: inline;
+  }
+  #details-navigation .btn--previous {
+    float: left;
+  }
+  #details-navigation .btn--previous i {
+    margin-right: 15px;
+  }
+  #details-navigation .btn--next {
+    float: right;
+  }
+  #details-navigation .btn--next i {
+    margin-right: 0;
+    margin-left: 15px;
+  }
 }
-footer .btn {
-  margin-top: 0;
+footer i {
+  margin-top: 40px;
+  margin-right: 25px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  font-size: 3.25em;
+  line-height: 1.07692em;
+}
+footer ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+footer ul li:first-child, footer ul li.first {
+  padding-left: 0;
+}
+footer ul li:last-child {
+  padding-right: 0;
+}
+footer ul li.last {
+  padding-right: 0;
 }
 
 #footer-secondary {

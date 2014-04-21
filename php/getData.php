@@ -2,17 +2,18 @@
     $feed = simplexml_load_file('xml/work.xml');
     function getData($item) {        
         global $title, $imgThumb, $url, $icon, $type, $description, 
-        $video, $imgLarge, $technologies;
+        $video, $imgLarge, $technologies, $link;
 
         $imgThumb = $item[0]->img->imgThumb;
         $title    = $item[0]->title;
         $url      = $item[0]->attributes()->url;
         $icon     = $item[0]->icon;
 
-        $description = $item[0]->description;
-        $video       = $item[0]->video;
-        $imgLarge   = $item[0]->img->imgLarge;
-        $technologies = $item[0]->technologies;
+        $description    = $item[0]->description;
+        $video          = $item[0]->video;
+        $imgLarge       = $item[0]->img->imgLarge;
+        $technologies   = $item[0]->technologies;
+        $link           = $item[0]->link;
 
         switch ($icon) {
             case "1":
@@ -44,8 +45,6 @@
         $feed   = simplexml_load_file('xml/work.xml');
 
         $item   = $feed->xpath("//item[@url='$detailsUrl']");
-        $newer  = $feed->xpath("//item[@url='$detailsUrl']/preceding-sibling::*[1]");
-        $older  = $feed->xpath("//item[@url='$detailsUrl']/following-sibling::*[1]");
         getData($item);
 
     }

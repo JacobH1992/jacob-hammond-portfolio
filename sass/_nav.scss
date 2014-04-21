@@ -7,11 +7,11 @@ nav {
     z-index: 2;
     @include transition(all .5s);
     ul {
-        width: auto;
+        width: 200px;
         height: 100%;
         position: fixed;
         top: 100px;
-        right: -50%;
+        right: -200px;
         text-align: right;
         background: $white;
     }
@@ -51,18 +51,6 @@ nav {
 .blue #site-nav {
     background: $blue;
 }
-
-// .white #site-nav li:hover {
-//     background: $lgrey;
-// }
-
-// .blue #site-nav li:hover {
-//     background: $yellow;
-//     a {
-
-//     color: $blue;
-//     }
-// }
 
 #site-nav-btn {
     width: 100px;

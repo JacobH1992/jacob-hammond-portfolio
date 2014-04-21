@@ -12,11 +12,11 @@
     <section id="index-about" class="white">
         <div class="align-center section-padding wow slideInLeft">
             <h1>About</h1>
-            <h2 class="wow fadeIn" data-wow-delay=".5s">I'm a recent <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a degree in Multimedia Technology & Design.</h2>
-            <p class="half-margin wow fadeIn" data-wow-delay="1s">I have just completed the 4th and final year of my degree. During that time I worked on many projects for my course, as a freelance designer and as Design & Production Intern for The Walt Disney Company in London.</p>
-            <p class="half-margin wow fadeIn" data-wow-delay="1.5s">My passion for design continues to grow along with my skills in many areas of design and development. As a recent graduate I am keen to find opportunities that will help further my skill set and career.</p>
+            <h2 class="wow fadeIn" data-wow-delay=".25s">I'm a recent <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a degree in Multimedia Technology & Design.</h2>
+            <p class="half-margin wow fadeIn" data-wow-delay=".5s">I have just completed the 4th and final year of my degree. During that time I worked on many projects for my course, as a freelance designer and as Design & Production Intern for The Walt Disney Company in London.</p>
+            <p class="half-margin wow fadeIn" data-wow-delay=".75s">My passion for design continues to grow along with my skills in many areas of design and development. As a recent graduate I am keen to find opportunities that will help further my skill set and career.</p>
             <div class="section-content-wrapper">
-                <div class="btn"><i class="ico-download"></i>DOWNLOAD MY CV</div>
+                <div class="btn wow fadeIn" data-wow-delay="1s"><i class="ico-download"></i>DOWNLOAD MY CV</div>
             </div>
         </div>
     </section>
@@ -24,8 +24,8 @@
     <section class="yellow">
         <div class="align-center section-padding wow slideInRight">
             <h1>Skills</h1>
-            <h2 class="wow fadeIn" data-wow-delay="1s">I have acquired a wide range of skills in many different types of design.</h2>
-            <div class="list third-margin wow fadeIn" data-wow-delay="1s">
+            <h2 class="wow fadeIn" data-wow-delay=".25">I have acquired a wide range of skills in many different types of design.</h2>
+            <div class="list third-margin wow fadeIn" data-wow-delay=".5s">
                 <h3><i class="ico-keyboard"></i>Website Design</h3>
                 <h3><i class="ico-graphic"></i>Graphic Design</h3>
                 <h3><i class="ico-art"></i>Digital Art</h3>
@@ -34,7 +34,7 @@
                 <h3><i class="ico-camera"></i>Photography</h3>
                 <h3><i class="ico-producer"></i>Website Production</h3>
             </div>
-            <div class="list third-margin wow fadeIn"  data-wow-delay="1.5s">
+            <div class="list third-margin wow fadeIn"  data-wow-delay=".75s">
                 <h3><i class="ico-tools"></i>Tools</h3>
                 <ul>
                     <li><p>Adobe Master Collection CS6</p></li>
@@ -47,7 +47,7 @@
                     <li><p>Nikon DSLR</p></li>
                 </ul>
             </div>
-            <div class="list third-margin wow fadeIn" data-wow-delay="2s">
+            <div class="list third-margin wow fadeIn" data-wow-delay="1s">
                 <h3><i class="ico-languages"></i>Languages</h3>
                 <ul>
                     <li><p>HTML5</p></li>

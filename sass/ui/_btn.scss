@@ -5,6 +5,7 @@
     *display: inline;
     cursor: pointer;
     white-space: nowrap;
+    border-radius: 5px;
     @include transition(all .3s);
 }
 

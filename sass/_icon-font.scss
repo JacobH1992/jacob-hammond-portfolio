@@ -107,10 +107,20 @@
 .ico-graduate:before {
     content: "\67";
 }
+.ico-grid:before {
+    content: "\47";
+}
 
 .ico-arrow-left {
     @include transform(rotate(90deg));
 }
 .ico-arrow-left:before {
+    content: "\5e";
+}
+
+.ico-arrow-right {
+    @include transform(rotate(-90deg));
+}
+.ico-arrow-right:before {
     content: "\5e";
 }

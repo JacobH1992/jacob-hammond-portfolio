@@ -1,5 +1,23 @@
 <xml>
 
+    <item url="project-titan">
+        <icon>2</icon>
+        <title>Project Titan</title>
+        <description>
+            The poster and brochure design for Cell Industries' Project Titan. These were made to accompany the website and be used to advertise it around my universities campus. We went for an illustrative and almost vintage style for the poster, creating all the assets from scratch.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>Photoshop,</li>
+                <li>Illustrator.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/graphic-design/thumb/project-titan.jpg</imgThumb>
+            <imgLarge>http://fc06.deviantart.net/fs71/f/2014/110/3/d/project_titan_by_chubbaart-d7f8j19.jpg</imgLarge>
+        </img>
+    </item>
+
     <item url="cell-industries">
         <icon>1</icon>
         <title>Cell Industries</title>
@@ -11,6 +29,10 @@
         </description>
         <technologies>
             <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Javascript,</li>
+                <li>PHP</li>
                 <li>WebGL,</li>
                 <li>ThreeJS,</li>
                 <li>WebRTC webcam gestures,</li>
@@ -22,6 +44,7 @@
                 <li>Feature detection,</li>
                 <li>Font icons,</li>
                 <li>Mobile first responsive,</li>
+                <li>BEM,</li>
                 <li>Sass.</li>
             ]]>
         </technologies>
@@ -35,8 +58,22 @@
     <item url="comfortably-stylish">
         <icon>5</icon>
         <title>Comfortably Stylish</title>
+        <description>
+            An ecommerce Android Mobile App I had to create as part of a university module. I went with a flat and clean design and used chairs from IKEA to base my app around. The app interacts with a database, downloading images and product details, caching them and sending orders to a database.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>Java,</li>
+                <li>Android SDK,</li>
+                <li>PHP,</li>
+                <li>XML,</li>
+                <li>MS Visual Studio,</li>
+                <li>Eclipse.</li>
+            ]]>
+        </technologies>
         <img>
             <imgThumb>/img/work/mobile-app/thumb/comfortably-stylish.jpg</imgThumb>
+            <imgLarge>http://fc04.deviantart.net/fs71/f/2014/110/f/7/comfortably_stylish_android_mobile_app_by_chubbaart-d7f8jav.jpg</imgLarge>
         </img>
     </item>
 
@@ -60,8 +97,26 @@
     <item url="peter-batten">
         <icon>1</icon>
         <title>Peter Batten</title>
+        <description>
+            A responsive showcase website which houses Peter Batten's professional work. It uses the Vimeo API to allow quick and easily categorized additions and updates to the website. It also uses Peter's Photobucket account to pull in images for his photography page.
+        </description> 
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>jQuery,</li>
+                <li>PHP,</li>
+                <li>Respsonsive design,</li>
+                <li>Vimeo API,</li>
+                <li>Photobucket feed XML,</li>
+                <li>Image Lightbox</li>
+                <li>Sass.</li>
+            ]]>
+        </technologies>
+        <link>http://peterbatten.co.uk/</link>
         <img>
             <imgThumb>/img/work/web/thumb/petebatten.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/petebatten.jpg</imgLarge>
         </img>
     </item>
 
@@ -94,9 +149,17 @@
         <icon>1</icon>
         <title>Mickeys Rockin' Roadshow</title>
         <description>
-            A competition page build for Disney Live! Mickey's Rockin' Road Show. I was tasked with designing and coding the page whilst adhering to Disney's style guides.
-        </description>
-        <link>http://www.cell-industries.co.uk/</link>
+            A competition page build for Disney Live! Mickey's Rockin' Road Show. I was tasked with designing and coding the page whilst adhering to Disney's strict style guides.
+        </description>        
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>JS,</li>
+                <li>Form validation.</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/competitions/disney-live-mickeys-rockin-roadshow/</link>
         <img>
             <imgThumb>/img/work/web/thumb/mickeysrockinroadshow.jpg</imgThumb>
             <imgLarge>/img/work/web/large/mickeysrockinroadshow.jpg</imgLarge>
@@ -116,6 +179,7 @@
         <title>Disney Characters Page</title>
         <img>
             <imgThumb>/img/work/production/thumb/disney-characters.jpg</imgThumb>
+            <imgLarge>/img/work/production/large/disney-characters.jpg</imgLarge>
         </img>
     </item>
 
@@ -127,11 +191,32 @@
         </img>
     </item>
 
+    <item url="bafta-kids-vote">
+        <icon>1</icon>
+        <title>Bafta Kids' Vote</title>
+        <description>
+            A website to show Disney's BAFTA Kids' Vote nominations. I also designed all the online promos for the Disney UK site.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Flash video player.</li>
+            ]]>
+        </technologies>
+        <link>http://chubbaart.tumblr.com/search/bafta</link>
+        <img>
+            <imgThumb>/img/work/web/thumb/baftakidsvote.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/baftakidsvote.jpg</imgLarge>
+        </img>
+    </item>
+
     <item url="gravityfalls">
         <icon>7</icon>
         <title>Disney XD Gravity Falls</title>
         <img>
             <imgThumb>/img/work/production/thumb/gravityfalls.jpg</imgThumb>
+            <imgLarge>/img/work/production/large/gravityfalls.jpg</imgLarge>
         </img>
     </item>
 
@@ -140,14 +225,6 @@
         <title>Beverly Hills Chihuahua 3</title>
         <img>
             <imgThumb>/img/work/web/thumb/bhc3.jpg</imgThumb>
-        </img>
-    </item>
-
-    <item url="bafta-kids-vote">
-        <icon>1</icon>
-        <title>Bafta Kids' Vote</title>
-        <img>
-            <imgThumb>/img/work/web/thumb/baftakidsvote.jpg</imgThumb>
         </img>
     </item>
 

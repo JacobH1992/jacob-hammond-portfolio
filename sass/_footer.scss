@@ -1,6 +1,11 @@
 footer {
-    .btn {
-        margin-top: 0;
+    i {
+        margin-top: 40px;
+        margin-right: 25px;
+    }
+    ul {
+        @include horizontal-list;
+        @include adjust-font-size-to(52px);
     }
 }
 

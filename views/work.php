@@ -8,14 +8,13 @@
 <main>
 <!--     <section class="white">
         <div id="work-filter" class="align-center">
-            <h3>Filter:</h3>
             <i class="ico-keyboard"></i>
             <i class="ico-graphic"></i>
             <i class="ico-art"></i>
             <i class="ico-cube"></i>
             <i class="ico-mobile"></i>
-            <i class="ico-camera"></i>
             <i class="ico-producer"></i>
+            <i class="ico-camera"></i>
         </div>
     </section> -->
     <section class="white">
@@ -26,7 +25,7 @@
 
                 ?>
                     <a href="/work/<?= $url; ?>">
-                        <div class="work-item wow flipInX" data-wow-offset="200">
+                        <div class="work-item wow flipInX" data-wow-offset="0">
                             <img src="img/blank.gif" data-src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
                             <noscript><img src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
                             <div class="work-item-description">

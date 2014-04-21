@@ -1,14 +1,15 @@
 .work-item {
     width: (100%/1);
     position: relative;
+    padding: 0 0 10px 0;
     float: left;
     overflow: hidden;
     color: $dgrey;
-    padding: 0 0 10px 0;
     img {
         width: 100%;
         display: block;
         @include transition(all .3s);
+        border-radius: 4px 4px 0 0;
     }   
     h1 {
         margin-bottom: 0;
