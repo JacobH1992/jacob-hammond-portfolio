@@ -889,7 +889,6 @@ img {
 }
 #index-header-text {
   width: 100%;
-  padding: 80px 20px;
 }
 #index-header-text h2 i {
   margin-right: 0;
@@ -982,21 +981,12 @@ img {
 }
 
 @media (min-width: 640px) {
-  #index-header-text {
-    padding: 150px 40px;
-  }
-
   .list {
     margin-top: 20px;
     margin-bottom: 0;
   }
   .list li {
     padding: 2px 0;
-  }
-}
-@media (min-width: 1200px) {
-  #index-header-text {
-    padding: 260px 0;
   }
 }
 #work-filter {
