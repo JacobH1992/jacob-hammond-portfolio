@@ -677,10 +677,13 @@ nav li a:active, nav li a:focus {
   width: 100px;
   position: absolute;
   right: -10px;
+  margin-right: 0;
   display: block;
   cursor: pointer;
   text-align: center;
   z-index: 4;
+  font-size: 0.75em;
+  line-height: 1.33333em;
 }
 #site-nav-btn:hover {
   color: #f8ebb4;
@@ -831,7 +834,7 @@ header {
 }
 
 .section-padding {
-  padding: 80px 40px;
+  padding: 80px 20px;
 }
 
 img {
@@ -867,7 +870,7 @@ img {
 
 @media (min-width: 640px) {
   .section-padding {
-    padding: 100px 40px;
+    padding: 100px 20px;
   }
 }
 @media (min-width: 1200px) {
