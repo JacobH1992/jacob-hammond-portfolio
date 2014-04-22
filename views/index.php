@@ -2,7 +2,7 @@
     <div id="index-header-text" class="align-center section-padding wow bounceInDown">
         <h1>Hi, I'm Jacob.</h1>
         <h2>I <i class="ico-heart ico--no-margin"></i> beautiful, clean and intuitive design.</h2>
-        <a href="#about" class="btn"><i class="ico-arrow-down"></i>A BIT MORE ABOUT ME</a>
+        <a href="#about" class="btn wow"><i class="ico-arrow-down"></i>A BIT MORE ABOUT ME</a>
     </div>
 </header>
 
@@ -10,19 +10,19 @@
 
 <a id="about"></a>
     <section id="index-about" class="white">
-        <div class="align-center section-padding wow slideInLeft">
+        <div class="align-center section-padding">
             <h1>About</h1>
-            <h2 class="wow fadeIn" data-wow-delay=".25s">I'm a recent <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a degree in Multimedia Technology & Design.</h2>
+            <h2 class="wow fadeIn" data-wow-delay=".25s">I will soon be a <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a degree in Multimedia Technology & Design.</h2>
             <p class="half-margin wow fadeIn" data-wow-delay=".5s">I have just completed the 4th and final year of my degree. During that time I worked on many projects for my course, as a freelance designer and as Design & Production Intern for The Walt Disney Company in London.</p>
             <p class="half-margin wow fadeIn" data-wow-delay=".75s">My passion for design continues to grow along with my skills in many areas of design and development. As a recent graduate I am keen to find opportunities that will help further my skill set and career.</p>
             <div class="section-content-wrapper">
-                <div class="btn wow fadeIn" data-wow-delay="1s"><i class="ico-download"></i>DOWNLOAD MY CV</div>
+                <div class="btn wow fadeIn" data-wow-delay=".25s"><i class="ico-download"></i>DOWNLOAD MY CV</div>
             </div>
         </div>
     </section>
 
     <section class="yellow">
-        <div class="align-center section-padding wow slideInRight">
+        <div class="align-center section-padding">
             <h1>Skills</h1>
             <h2 class="wow fadeIn" data-wow-delay=".25">I have acquired a wide range of skills in many different types of design.</h2>
             <div class="list third-margin wow fadeIn" data-wow-delay=".5s">

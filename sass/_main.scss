@@ -17,7 +17,6 @@ html {
 main {
     width: 100%;
     position: relative;
-    z-index: 1;
 }
 
 section > div,
@@ -45,7 +44,7 @@ header {
 }
 
 .section-padding {
-    padding: 80px 20px;
+    padding: 80px 40px;
 }
 
 img {
@@ -75,7 +74,7 @@ img {
 
 @media ($min_bp_a) {
     .section-padding {
-        padding: 120px 40px;
+        padding: 100px 40px;
     }
 }
 

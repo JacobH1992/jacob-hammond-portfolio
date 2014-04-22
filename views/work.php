@@ -42,7 +42,13 @@
         </div>
     </section>
 
-    
-
+    <section class="yellow">
+        <div class="align-center section-padding">
+            <div>
+                <h3>Take a look at my photography on my blog</h3>
+                <a href="http://chubbaart.tumblr.com/search/photography" target="_blank" class="btn"><i class="ico-link"></i>VIEW MY PHOTOGRAPHY</a>
+            </div>
+        </div>
+    </section>
 
 </main>

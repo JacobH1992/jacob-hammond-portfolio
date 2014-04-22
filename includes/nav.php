@@ -8,4 +8,5 @@
         <li><a href="http://chubbaart.tumblr.com/" target="_blank">BLOG</a></li>
         <li><a href="/contact">CONTACT</a></li>
     </ul>
+    <div id="nav-overlay"></div>
 </nav>
