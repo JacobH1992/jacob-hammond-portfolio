@@ -16,7 +16,7 @@ nav {
         background: $white;
     }
     li {
-        padding: 20px 20px;
+        padding: 10px 20px;
         line-height: 40px;
         a {
             @include unstyled-link;
