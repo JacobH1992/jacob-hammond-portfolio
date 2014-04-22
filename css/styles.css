@@ -610,7 +610,7 @@ a.btn:active, a.btn:focus {
 }
 nav {
   width: 100%;
-  height: 100px;
+  height: 65px;
   position: fixed;
   top: 0;
   padding-right: 20px;
@@ -625,7 +625,7 @@ nav ul {
   width: 200px;
   height: 100%;
   position: fixed;
-  top: 100px;
+  top: 65px;
   right: -200px;
   text-align: right;
   background: white;
@@ -658,7 +658,7 @@ nav li a:active, nav li a:focus {
 #nav-logo h1 {
   font-size: 2em;
   line-height: 1.25em;
-  line-height: 106px;
+  line-height: 70px;
 }
 
 #site-nav {
@@ -674,9 +674,10 @@ nav li a:active, nav li a:focus {
 }
 
 #site-nav-btn {
-  width: 100px;
+  width: 75px;
+  height: 65px;
   position: absolute;
-  right: -10px;
+  right: 0;
   margin-right: 0;
   display: block;
   cursor: pointer;
@@ -697,14 +698,14 @@ nav li a:active, nav li a:focus {
   content: 'b';
   font-size: 2.625em;
   line-height: 1.14286em;
-  line-height: 100px;
+  line-height: 65px;
 }
 
 #site-nav-toggle:checked ~ #site-nav-btn:before {
   content: 'x';
   font-size: 2em;
   line-height: 1.25em;
-  line-height: 100px;
+  line-height: 68px;
 }
 
 #site-nav-toggle:checked ~ #site-nav {
@@ -719,7 +720,7 @@ nav li a:active, nav li a:focus {
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 100px;
+  top: 65px;
   left: 0;
   display: none;
   background: url(../img/overlay.png);
@@ -728,6 +729,7 @@ nav li a:active, nav li a:focus {
 
 @media (min-width: 640px) {
   nav {
+    height: 100px;
     padding-right: 40px;
   }
   nav ul {
@@ -770,6 +772,9 @@ nav li a:active, nav li a:focus {
   #nav-logo {
     float: left;
     padding: 0 40px;
+  }
+  #nav-logo h1 {
+    line-height: 106px;
   }
 
   #site-nav-btn {
@@ -820,7 +825,7 @@ section {
 }
 
 header {
-  margin-top: 100px;
+  margin-top: 65px;
 }
 
 .section-content-wrapper {
@@ -869,6 +874,10 @@ img {
 }
 
 @media (min-width: 640px) {
+  header {
+    margin-top: 65px;
+  }
+
   .section-padding {
     padding: 100px 20px;
   }
@@ -1046,6 +1055,8 @@ img {
   margin: 5px 5px;
   display: inline-block;
   font-weight: 200;
+  zoom: 1;
+  *display: inline;
 }
 
 .details-description-technologies {
