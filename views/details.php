@@ -5,8 +5,8 @@
 
 <header class="blue">
     <div class="align-center section-padding wow bounceInDown">
-            <h1><?= $title; ?></h1>
-            <h2><?= $type; ?></h2>
+        <h1><?= $title; ?></h1>
+        <h2><?= $type; ?></h2>
     </div>
 </header>
 
@@ -14,8 +14,8 @@
     <section class="white">
         <div class="align-center section-padding">
 
-            <!-- web design & dev -->
             <?php if($icon == 1) : ?>
+            <!-- web design & dev -->
                 <div class="details-description half-margin">
                     <h3><i class="ico-info"></i>About</h3>
                     <p><?= $description; ?></p>
@@ -30,8 +30,8 @@
                 </div>
             <?php endif; ?>
 
+            <?php if($icon == 2 || $icon == 3 || $icon == 5 || $icon == 7) : ?>
             <!-- graphic design, digital art, mobile app -->
-            <?php if($icon == 2 || $icon == 3 || $icon == 5 || $icon == 7) : ?>            
                 <div class="details-description">
                     <div class="half-margin">
                         <h3><i class="ico-info"></i>About</h3>
@@ -49,8 +49,8 @@
                 </div>
             <?php endif; ?>
 
-            <!-- 3d/video -->
             <?php if($icon == 4) : ?>
+            <!-- 3d/video -->
                     <?= $video; ?>
                     <div class="half-margin">
                         <h3><i class="ico-info"></i>About</h3>

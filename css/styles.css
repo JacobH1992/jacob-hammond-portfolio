@@ -1048,13 +1048,11 @@ img {
 .details-description {
   overflow: hidden;
 }
-.details-description ul {
-  margin-left: -5px;
-}
 .details-description li {
-  margin: 5px 5px;
-  display: inline-block;
+  margin-right: 10px;
+  display: inline;
   font-weight: 200;
+  line-height: 35px;
   zoom: 1;
   *display: inline;
 }
