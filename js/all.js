@@ -15,9 +15,6 @@ window.addEventListener('scroll', function () {
     target  = document.getElementsByTagName('main')[0].offsetTop - 100;
     position = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
 
-    console.log(position);
-    //543
-
     changeNavbarBkg();
 });
 
