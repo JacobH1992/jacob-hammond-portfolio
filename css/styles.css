@@ -1146,18 +1146,14 @@ img {
     margin-left: 15px;
   }
 }
-footer i {
-  margin-top: 40px;
-  margin-right: 25px;
-}
 footer ul {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  font-size: 3.25em;
-  line-height: 1.07692em;
+  font-size: 2.875em;
+  line-height: 1.21739em;
 }
 footer ul li {
   list-style-image: none;
@@ -1179,14 +1175,7 @@ footer ul li.last {
   padding-right: 0;
 }
 
-#footer-secondary {
-  padding: 40px 0;
-}
-#footer-secondary h2 {
-  margin-bottom: 0;
-}
-
-.copyright {
-  padding: 11px 0;
+#copyright {
+  padding: 14px 0;
   text-align: right;
 }

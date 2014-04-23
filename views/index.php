@@ -16,7 +16,7 @@
             <p class="half-margin wow fadeIn" data-wow-delay=".5s">I have just completed the 4th and final year of my degree. During that time I worked on many projects for my course, as a freelance designer and as Design & Production Intern for The Walt Disney Company in London.</p>
             <p class="half-margin wow fadeIn" data-wow-delay=".75s">My passion for design continues to grow along with my skills in many areas of design and development. As a recent graduate I am keen to find opportunities that will help further my skill set and career.</p>
             <div class="section-content-wrapper">
-                <a href="/downloads/Jacob-Hammond-Multimedia-Designer-CV-2014.pdf" target="_blank" class="btn wow fadeIn" data-wow-delay=".25s"><i class="ico-download"></i>DOWNLOAD MY CV</a>
+                <a href="/downloads/Jacob-Hammond-Multimedia-Designer-CV-2014.pdf" target="_blank" class="btn"><i class="ico-download"></i>DOWNLOAD MY CV</a>
             </div>
         </div>
     </section>

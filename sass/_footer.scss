@@ -1,22 +1,11 @@
 footer {
-    i {
-        margin-top: 40px;
-        margin-right: 25px;
-    }
     ul {
         @include horizontal-list;
-        @include adjust-font-size-to(52px);
+        @include adjust-font-size-to(46px);
     }
 }
 
-#footer-secondary {
-    padding: 40px 0;
-    h2 {
-        margin-bottom: 0;
-    }
-}
-
-.copyright {
-    padding: 11px 0;
+#copyright {
+    padding: 14px 0;
     text-align: right;
 }
