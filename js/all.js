@@ -1,4 +1,4 @@
-// Nav close
+// Nav close on overlay
 var navOverlay    = document.getElementById('nav-overlay');
 var siteNavToggle = document.getElementById('site-nav-toggle');
 
@@ -6,7 +6,7 @@ navOverlay.addEventListener('click', function() {
     siteNavToggle.checked = false;
 });
 
-// Nav fade
+// Nav colour change
 var navBar  = document.getElementsByTagName('nav')[0];
 var position;
 var target;
@@ -14,6 +14,9 @@ var target;
 window.addEventListener('scroll', function () {
     target  = document.getElementsByTagName('main')[0].offsetTop - 100;
     position = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+
+    console.log(position);
+    //543
 
     changeNavbarBkg();
 });

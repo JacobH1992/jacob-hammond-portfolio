@@ -2,14 +2,14 @@
     <div id="index-header-text" class="align-center section-padding wow bounceInDown">
         <h1>Hi, I'm Jacob.</h1>
         <h2>I <i class="ico-heart ico--no-margin"></i> beautiful, clean and intuitive design.</h2>
-        <a href="#about" class="btn wow"><i class="ico-arrow-down"></i>A BIT MORE ABOUT ME</a>
+        <a href="#about" id="index-more" class="btn wow"><i class="ico-arrow-down"></i>A BIT MORE ABOUT ME</a>
     </div>
 </header>
 
 <main>
 
-<a id="about"></a>
     <section id="index-about" class="white">
+<a id="about"></a>
         <div class="align-center section-padding">
             <h1>About</h1>
             <h2 class="wow fadeIn" data-wow-delay=".25s">I will soon be a <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a degree in Multimedia Technology & Design.</h2>
