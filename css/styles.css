@@ -1146,36 +1146,21 @@ img {
     margin-left: 15px;
   }
 }
-footer ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
+.footer---icons {
+  padding-top: 20px;
   font-size: 2.875em;
   line-height: 1.21739em;
 }
-footer ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
+.footer---icons i {
+  margin-right: 0;
 }
-footer ul li:first-child, footer ul li.first {
-  padding-left: 0;
-}
-footer ul li:last-child {
-  padding-right: 0;
-}
-footer ul li.last {
-  padding-right: 0;
+
+.fb-like-box {
+  width: 100%;
+  background: #FFF;
+  border-radius: 5px;
 }
 
 #copyright {
-  padding: 14px 0;
-  text-align: right;
+  margin-top: 20px;
 }

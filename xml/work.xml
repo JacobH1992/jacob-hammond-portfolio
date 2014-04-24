@@ -32,7 +32,7 @@
                 <li>HTML,</li>
                 <li>CSS,</li>
                 <li>Javascript,</li>
-                <li>PHP</li>
+                <li>PHP,</li>
                 <li>WebGL,</li>
                 <li>ThreeJS,</li>
                 <li>WebRTC webcam gestures,</li>
@@ -99,7 +99,7 @@
         <title>Peter Batten</title>
         <description>
             A responsive showcase website which houses Peter Batten's professional work. It uses the Vimeo API to allow quick and easily categorized additions and updates to the website. It also uses Peter's Photobucket account to pull in images for his photography page.
-        </description> 
+        </description>
         <technologies>
             <![CDATA[
                 <li>HTML,</li>
@@ -109,7 +109,7 @@
                 <li>Respsonsive design,</li>
                 <li>Vimeo API,</li>
                 <li>Photobucket feed XML,</li>
-                <li>Image Lightbox</li>
+                <li>Image Lightbox,</li>
                 <li>Sass.</li>
             ]]>
         </technologies>
@@ -140,8 +140,20 @@
     <item url="precise-pixels-v2">
         <icon>1</icon>
         <title>Precise Pixels v2</title>
+        <description>A redesign of the Precise Pixels website, making it responsive and more up to date with modern web technologies.</description>
+        <technologies>
+            <![CDATA[
+                <li>Mobile First,</li>
+                <li>Responsive,</li>
+                <li>SASS,</li>
+                <li>Icon Font,</li>
+                <li>Retina.</li>
+            ]]>
+        </technologies>
+        <link>http://precisepixels.co.uk/</link>
         <img>
             <imgThumb>/img/work/web/thumb/ppixels2.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/ppixels2.jpg</imgLarge>
         </img>
     </item>
 
