@@ -30,7 +30,7 @@
                 </div>
             <?php endif; ?>
 
-            <?php if($icon == 2 || $icon == 3 || $icon == 5 || $icon == 7) : ?>
+            <?php if($icon == 2 || $icon == 3 || $icon == 5) : ?>
             <!-- graphic design, digital art, mobile app -->
                 <div class="details-description">
                     <div class="half-margin">
@@ -47,6 +47,26 @@
                 <div class="description-image description-image--mobile">
                     <img src="<?= $imgLarge; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/>
                 </div>
+            <?php endif; ?>
+
+            <?php if($icon == 7) : ?>
+            <!-- graphic design, digital art, mobile app -->
+                <div class="details-description">
+                    <div class="half-margin">
+                        <h3><i class="ico-info"></i>About</h3>
+                        <p><?= $description; ?></p>
+                    </div>
+                    <div class="half-margin">
+                        <p class="details-description-technologies">Technologies / Applications used:</p>
+                        <ul>
+                            <?= $technologies; ?>
+                        </ul>
+                    </div>
+                </div>
+                <div class="description-image description-image--mobile">
+                    <img src="<?= $imgLarge; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/>
+                </div>
+                <a href="<?= $link; ?>" class="details-link btn" target="_blank"><i class="ico-link"></i>VISIT SITE</a>     
             <?php endif; ?>
 
             <?php if($icon == 4) : ?>

@@ -167,7 +167,7 @@
             <![CDATA[
                 <li>HTML,</li>
                 <li>CSS,</li>
-                <li>JS,</li>
+                <li>Javascript,</li>
                 <li>Form validation.</li>
             ]]>
         </technologies>
@@ -181,14 +181,34 @@
     <item url="madagascar3">
         <icon>1</icon>
         <title>Madagascar 3 Competition</title>
+        <description>
+            A competition page for the movie release of Madagascar 3 designed and built for the Disney UK ad-sales team. (You may need to turn off any ad-blocker to view the webpage).
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS3,</li>
+                <li>JQuery,</li>
+                <li>SWF Embed.</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/advertising/madagascar3/</link>
         <img>
             <imgThumb>/img/work/web/thumb/madagascar3.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/madagascar3.jpg</imgLarge>
         </img>
     </item>
 
     <item url="disney-characters">
         <icon>7</icon>
         <title>Disney Characters Page</title>
+        <description>Before and after images of a page I re-produced and rebuilt for Disney.co.uk using their in-house CMS.</description>
+        <technologies>
+            <![CDATA[
+                <li>Producer Tool Kit</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/disney-characters/</link>
         <img>
             <imgThumb>/img/work/production/thumb/disney-characters.jpg</imgThumb>
             <imgLarge>/img/work/production/large/disney-characters.jpg</imgLarge>
@@ -198,8 +218,20 @@
     <item url="paperfx">
         <icon>1</icon>
         <title>Paper FX Competition</title>
+        <description>A competition page for the Disney UK ad-sales team. (You may need to turn off any ad-blocker to view the webpage).</description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Javascript,</li>
+                <li>Form validation,</li>
+                <li>SWF Embed.</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/advertising/flair/paperfx/</link>
         <img>
             <imgThumb>/img/work/web/thumb/paperfx.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/paperfx.jpg</imgLarge>
         </img>
     </item>
 
@@ -226,6 +258,14 @@
     <item url="gravityfalls">
         <icon>7</icon>
         <title>Disney XD Gravity Falls</title>
+        <description>I produced all the assets for the Disney XD Gravity Falls page, I also built the page using Disney's in-house Pluto CMS.</description>
+        <link>http://www.disney.co.uk/disney-xd/gravity-falls/</link>
+        <technologies>
+            <![CDATA[
+                <li>Pluto CMS,</li>
+                <li>Photoshop.</li>
+            ]]>
+        </technologies>
         <img>
             <imgThumb>/img/work/production/thumb/gravityfalls.jpg</imgThumb>
             <imgLarge>/img/work/production/large/gravityfalls.jpg</imgLarge>
@@ -235,24 +275,57 @@
     <item url="bhc3">
         <icon>1</icon>
         <title>Beverly Hills Chihuahua 3</title>
+        <description>A flash webpage with HTML fallback built for Disney UK to advertise the release of Beverly Hills Chihuahua 3 on DVD.</description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Flash.</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/beverly-hills-chihuahua-3/</link>
         <img>
             <imgThumb>/img/work/web/thumb/bhc3.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/bhc3.jpg</imgLarge>
         </img>
     </item>
 
     <item url="gelarti">
         <icon>1</icon>
         <title>Gelarti Competition</title>
+        <description>A competition page designed and built for Disney UK Ad-Sales team.</description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Javascript,</li>
+                <li>SWF Embed,</li>
+                <li>Form validation.</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/advertising/flair/gelarti//</link>
         <img>
             <imgThumb>/img/work/web/thumb/gelarti.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/gelarti.jpg</imgLarge>
         </img>
     </item>
 
     <item url="brave">
         <icon>1</icon>
         <title>Pixar Brave Competition</title>
+        <description>Brave Videogame Competition Design for Disney.co.uk</description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS3,</li>
+                <li>Javascript,</li>
+                <li>SWF Embed.</li>
+            ]]>
+        </technologies>
+        <link>http://chubbaart.tumblr.com/search/brave</link>
         <img>
             <imgThumb>/img/work/web/thumb/brave-competition.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/brave-competition.jpg</imgLarge>
         </img>
     </item>
 
@@ -276,16 +349,56 @@
     <item url="precise-pixels-v1">
         <icon>1</icon>
         <title>Precise Pixels v1</title>
+        <description>The first website for Precise Pixels, my web design company I co-founded with my university coursemate.</description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>jQuery,</li>
+                <li>Ajax form submition.</li>
+            ]]>
+        </technologies>
+        <link>http://www.precisepixels.co.uk/old/</link>
         <img>
             <imgThumb>/img/work/web/thumb/ppixels1.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/ppixels1.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="baybuk">
+        <icon>2</icon>
+        <title>BayBuk</title>
+        <description>
+            Flyer design for BayBuk, including mockup website design and logo design.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>Photoshop.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/graphic-design/thumb/baybuk.jpg</imgThumb>
+            <imgLarge>/img/work/graphic-design/large/baybuk.jpg</imgLarge>
         </img>
     </item>
 
     <item url="peking">
         <icon>1</icon>
         <title>Peking Restaurant</title>
+        <description>
+            The Peking Restaurant is a traditional chinese restaurant in Gravesend. Their old website was a virtually purposeless template website that did not do the restaurant any justice. We (Precise Pixels) created a basic but professional website to showcase the restaurant with menus, prices, and photos taken by us.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Photography.</li>
+            ]]>
+        </technologies>
+        <link>http://pekingrestaurantgravesend.co.uk/</link>
         <img>
             <imgThumb>/img/work/web/thumb/peking.jpg</imgThumb>
+            <imgLarge>http://fc03.deviantart.net/fs71/i/2012/024/3/d/peking_restaurant_web_design_by_chubbaart-d4ngw8p.png</imgLarge>
         </img>
     </item>
 
@@ -303,6 +416,17 @@
         <img>
             <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
             <imgLarge>/img/work/3d/large/spaceshiprace.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="boniver">
+        <icon>2</icon>
+        <title>Bon Iver Typography</title>
+        <description>A poster inspired by the Bon Iver song Skinny Love.</description>
+        <technologies>Photoshop.</technologies>
+        <img>
+            <imgThumb>/img/work/graphic-design/thumb/boniver.jpg</imgThumb>
+            <imgLarge>/img/work/graphic-design/large/boniver.jpg</imgLarge>
         </img>
     </item>
 

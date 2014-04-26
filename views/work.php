@@ -1,28 +1,35 @@
 <header class="blue">
-    <div class="align-center section-padding wow bounceInDown">
+    <div class="align-center section-padding bounceInDown">
         <h1>Work</h1>
         <h2>Here is a selection of my work.</h2>
     </div>
 </header>
 
 <main>
-<!--     <section class="white">
-        <div id="work-filter" class="align-center">
-            <i class="ico-keyboard"></i>
-            <i class="ico-graphic"></i>
-            <i class="ico-art"></i>
-            <i class="ico-cube"></i>
-            <i class="ico-mobile"></i>
-            <i class="ico-producer"></i>
-            <i class="ico-camera"></i>
-        </div>
-    </section> -->
+
     <section class="white">
         <div id="work-items" class="align-center section-padding">
+<!--         <div id="work-filter">
+            <input type="checkbox" id="filter-btn-toggle" class="checkbox-hack" autocomplete="off"/>
+            <label for="filter-btn-toggle" id="filter-btn" class="btn ico-"><div id="filter-btn-text">Filter</div></label>    
+            <div id="filter-btn-categories">
+                <a href="/work" class="btn">All</a>
+                <a href="?category=web" class="btn">Web</a>
+                <a href="?category=graphic-design" class="btn">Graphic Design</a>
+                <a href="?category=digital-art" class="btn">Digital Art</a>
+                <a href="?category=3d" class="btn">3D</a>
+                <a href="?category=mobile-app" class="btn">Mobile App</a>
+                <a href="?category=production" class="btn">Production</a>
+            </div>
+        </div> -->
             <?php
                 foreach($feed->item as $item):
                 getData($item);
-
+                
+                if ($category != "" && $category != $categoryName) {
+                    continue;
+                }
+                
                 ?>
                     <a href="/work/<?= $url; ?>">
                         <div class="work-item wow flipInX" data-wow-offset="0">

@@ -1,24 +1,32 @@
-.footer---icons {
-    padding-top: 20px;
-    @include adjust-font-size-to(46px);
+#footer-right {
+    margin-top: 20px;
     i {
         margin-right: 0;
     }
 }
 
-.fb-like-box {
-    width: 100%;
-    background: #FFF;
-    // height: 188px;
-    border-radius: 5px;
+.footer---icons {
+    padding-top: 20px;
+    @include adjust-font-size-to(34px);
 }
 
 #copyright {
     margin-top: 20px;
 }
 
+
 @media ($min_bp_a) {
     #footer-right {
-        // text-align: right;
+        margin-top: 0;
+    }
+    .footer---icons {
+        @include adjust-font-size-to(44px);
+    }
+}
+
+@media ($min_bp_b) {
+    .footer---icons {
+        padding-top: 10px;
+        @include adjust-font-size-to(54px);
     }
 }

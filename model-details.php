@@ -4,9 +4,9 @@ $urlVars  = explode('/', $q);
 $detailsUrl = $urlVars[1];
 
 require_once('php/getData.php');
-getDetails($detailsUrl);
+$hasDetails = getDetails($detailsUrl);
 
-if($isDetails) {
+if($hasDetails) {
     $file = 'details';
 } else {
     $file = '404';

@@ -1,18 +1,31 @@
 #work-filter {
-    padding: 20px;
-    i {
-        border: 1px solid $dgrey;
-        padding: 20px;
-        @include adjust-font-size-to(20px);
-        @include transition(all .3s);
-        &:hover {
-            background: $yellow;
-        }
+    padding: 20px 0;
+    .btn {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 
-#work-items {
-    padding-top: 80px;
+#filter-btn-categories {
+    display: none;
+}
+
+#filter-btn:before {
+    content: "b";
+}
+
+#filter-btn-toggle:checked ~ #filter-btn:before {
+    content: "x";
+}
+
+#filter-btn-toggle:checked ~ #filter-btn-categories {
+    display: block;
+}
+
+#filter-btn-text {
+    margin-left: 15px;
+    display: inline;
+    font-family: $base-font-family;
 }
 
 .header-work {
@@ -24,7 +37,20 @@
 }
 
 @media ($min_bp_c) {
+    #filter-btn {
+        display: none;
+    }
+
+    #filter-btn-categories {
+        display: block;
+    }
+}
+
+@media ($min_bp_a) {
     #work-filter {
-        padding: 60px 0;
+        .btn {
+            margin-right: 15px;
+            width: auto;
+        }
     }
 }

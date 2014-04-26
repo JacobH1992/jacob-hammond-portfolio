@@ -1,7 +1,8 @@
 <?php
     $feed = simplexml_load_file('xml/work.xml');
-    function getData($item) {        
-        global $title, $imgThumb, $url, $icon, $type, $description, 
+    
+    function getData($item) {
+        global $categoryName, $subTitle, $title, $imgThumb, $url, $icon, $type, $description, 
         $video, $imgLarge, $technologies, $link;
 
         $imgThumb = $item[0]->img->imgThumb;
@@ -17,34 +18,45 @@
 
         switch ($icon) {
             case "1":
+                $categoryName = "web";
                 $type = "Web Design & Development";
                 break;
             case "2":
+                $categoryName = "graphic-design";
                 $type = "Graphic Design";
                 break;
             case "3":
+                $categoryName = "digital-art";
                 $type = "Digital Art";
                 break;
             case "4":
+                $categoryName = "3d";
                 $type = "3D Design";
                 break;
             case "5":
+                $categoryName = "mobile-app";
                 $type = "Mobile App Design";
                 break;
             case "6":
+                $categoryName = "photography";
                 $type = "Photography";
                 break;
             case "7":
+                $categoryName = "production";
                 $type = "Website Production";
                 break;
         }
     }
 
     function getDetails($detailsUrl) {
-
         $feed   = simplexml_load_file('xml/work.xml');
 
         $item   = $feed->xpath("//item[@url='$detailsUrl']");
-        getData($item);
 
+        if (empty($item)) {
+            return false;
+        } else {
+            getData($item);
+            return true;
+        }
     }
