@@ -1027,6 +1027,20 @@ img {
   display: block;
 }
 
+#work-photography {
+  margin-top: 40px;
+}
+
+@media (min-width: 640px) {
+  #work-filter .btn {
+    margin-right: 15px;
+    width: auto;
+  }
+
+  #work-photography {
+    margin-top: 0;
+  }
+}
 @media (min-width: 1200px) {
   #filter-btn {
     display: none;
@@ -1034,12 +1048,6 @@ img {
 
   #filter-btn-categories {
     display: block;
-  }
-}
-@media (min-width: 640px) {
-  #work-filter .btn {
-    margin-right: 15px;
-    width: auto;
   }
 }
 .details-header h1 {

@@ -1,5 +1,5 @@
 <header class="blue">
-    <div class="align-center section-padding bounceInDown">
+    <div class="align-center section-padding wow bounceInDown">
         <h1>Work</h1>
         <h2>Here is a selection of my work.</h2>
     </div>
@@ -51,8 +51,12 @@
 
     <section class="yellow">
         <div class="align-center section-padding">
-            <div>
-                <h3>Take a look at my photography on my blog</h3>
+            <div class="half-margin">
+                <h3>For more and hi-res versions of my digital art and graphic design please visit my DeviantArt</h3>
+                <a href="http://chubbaart.deviantart.com/gallery" target="_blank" class="btn"><i class="ico-link"></i>VISIT MY DEVIANT ART PAGE</a>
+            </div>
+            <div id="work-photography" class="half-margin">
+                <h3>For examples of my photography take a look on my blog</h3>
                 <a href="http://chubbaart.tumblr.com/search/photography" target="_blank" class="btn"><i class="ico-link"></i>VIEW MY PHOTOGRAPHY</a>
             </div>
         </div>

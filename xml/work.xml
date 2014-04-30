@@ -157,6 +157,22 @@
         </img>
     </item>
 
+    <item url="colour">
+        <icon>3</icon>
+        <title>Colour</title>
+        <description>Digital art showing off vibrant colours and the "correct" spelling of the word colour.</description>
+        <technologies>
+            <![CDATA[
+                <li>Photoshop,</li>
+                <li>Graphics Tablet.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/digital-art/thumb/colour.jpg</imgThumb>
+            <imgLarge>/img/work/digital-art/large/colour.jpg</imgLarge>
+        </img>
+    </item>
+
     <item url="mickeys-rockin-roadshow">
         <icon>1</icon>
         <title>Mickeys Rockin' Roadshow</title>
@@ -175,6 +191,51 @@
         <img>
             <imgThumb>/img/work/web/thumb/mickeysrockinroadshow.jpg</imgThumb>
             <imgLarge>/img/work/web/large/mickeysrockinroadshow.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="revolutionposter">
+        <icon>2</icon>
+        <title>Revolution Club Poster</title>
+        <description>
+            A couple of poster designs for a student club night in Bar Revolution.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>Photoshop,</li>
+                <li>Illustrator.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/graphic-design/thumb/revolutionposter.jpg</imgThumb>
+            <imgLarge>/img/work/graphic-design/large/revolutionposter.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="brokenstrings">
+        <icon>3</icon>
+        <title>Broken Strings</title>
+        <description>A digital drawing of a puppet.</description>
+        <technologies>
+            <![CDATA[
+                <li>Photoshop,</li>
+                <li>Graphics Tablet.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/digital-art/thumb/brokenstrings.jpg</imgThumb>
+            <imgLarge>/img/work/digital-art/large/brokenstrings.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="inthehandsofgiants">
+        <icon>3</icon>
+        <title>In The Hands Of Giants</title>
+        <description>Digital art showing a giant holding the natural world.</description>
+        <technologies>Photoshop.</technologies>
+        <img>
+            <imgThumb>/img/work/digital-art/thumb/inthehandsofgiants.jpg</imgThumb>
+            <imgLarge>/img/work/digital-art/large/inthehandsofgiants.jpg</imgLarge>
         </img>
     </item>
 
@@ -215,11 +276,75 @@
         </img>
     </item>
 
+    <item url="insomnia">
+        <icon>2</icon>
+        <title>Insomnia Club Poster</title>
+        <description>
+            Logo and poster designs for new club night named "Insomnia".
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>Photoshop.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/graphic-design/thumb/insomnia.jpg</imgThumb>
+            <imgLarge>/img/work/graphic-design/large/insomnia.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="gravityfalls">
+        <icon>7</icon>
+        <title>Disney XD Gravity Falls</title>
+        <description>I produced all the assets for the Disney XD Gravity Falls page, I also built the page using Disney's in-house Pluto CMS.</description>
+        <link>http://www.disney.co.uk/disney-xd/gravity-falls/</link>
+        <technologies>
+            <![CDATA[
+                <li>Pluto CMS,</li>
+                <li>Photoshop.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/production/thumb/gravityfalls.jpg</imgThumb>
+            <imgLarge>/img/work/production/large/gravityfalls.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="dancerstock">
+        <icon>3</icon>
+        <title>Stock Dancer</title>
+        <description>Photomanipulations using two different stock photographs of the same dancer.</description>
+        <technologies>Photoshop.</technologies>
+        <img>
+            <imgThumb>/img/work/digital-art/thumb/dancerstock.jpg</imgThumb>
+            <imgLarge>/img/work/digital-art/large/dancerstock.jpg</imgLarge>
+        </img>
+    </item>
+
+    <item url="bhc3">
+        <icon>1</icon>
+        <title>Beverly Hills Chihuahua 3</title>
+        <description>A flash webpage with HTML fallback built for Disney UK to advertise the release of Beverly Hills Chihuahua 3 on DVD.</description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Flash.</li>
+            ]]>
+        </technologies>
+        <link>http://www.disney.co.uk/beverly-hills-chihuahua-3/</link>
+        <img>
+            <imgThumb>/img/work/web/thumb/bhc3.jpg</imgThumb>
+            <imgLarge>/img/work/web/large/bhc3.jpg</imgLarge>
+        </img>
+    </item>
+
     <item url="paperfx">
         <icon>1</icon>
         <title>Paper FX Competition</title>
         <description>A competition page for the Disney UK ad-sales team. (You may need to turn off any ad-blocker to view the webpage).</description>
         <technologies>
+
             <![CDATA[
                 <li>HTML,</li>
                 <li>CSS,</li>
@@ -255,38 +380,20 @@
         </img>
     </item>
 
-    <item url="gravityfalls">
-        <icon>7</icon>
-        <title>Disney XD Gravity Falls</title>
-        <description>I produced all the assets for the Disney XD Gravity Falls page, I also built the page using Disney's in-house Pluto CMS.</description>
-        <link>http://www.disney.co.uk/disney-xd/gravity-falls/</link>
-        <technologies>
+    <item url="robot">
+        <icon>4</icon>
+        <title>Medi Robot</title>
+        <description>A 3D robot animation and my second ever 3D animation. Made for my university module Virtual Worlds and 3D Modelling (EL635) at the University of Kent.</description>
+        <video>
             <![CDATA[
-                <li>Pluto CMS,</li>
-                <li>Photoshop.</li>
+            <div class="description-video">
+                <iframe width="1000" height="520" src="//www.youtube.com/embed/cdb6beaRru8" frameborder="0" allowfullscreen></iframe>
+            </div>
             ]]>
-        </technologies>
+        </video>
         <img>
-            <imgThumb>/img/work/production/thumb/gravityfalls.jpg</imgThumb>
-            <imgLarge>/img/work/production/large/gravityfalls.jpg</imgLarge>
-        </img>
-    </item>
-
-    <item url="bhc3">
-        <icon>1</icon>
-        <title>Beverly Hills Chihuahua 3</title>
-        <description>A flash webpage with HTML fallback built for Disney UK to advertise the release of Beverly Hills Chihuahua 3 on DVD.</description>
-        <technologies>
-            <![CDATA[
-                <li>HTML,</li>
-                <li>CSS,</li>
-                <li>Flash.</li>
-            ]]>
-        </technologies>
-        <link>http://www.disney.co.uk/beverly-hills-chihuahua-3/</link>
-        <img>
-            <imgThumb>/img/work/web/thumb/bhc3.jpg</imgThumb>
-            <imgLarge>/img/work/web/large/bhc3.jpg</imgLarge>
+            <imgThumb>/img/work/3d/thumb/robot.jpg</imgThumb>
+            <imgLarge>/img/work/3d/large/robot.jpg</imgLarge>
         </img>
     </item>
 
@@ -329,23 +436,6 @@
         </img>
     </item>
 
-    <item url="robot">
-        <icon>4</icon>
-        <title>Medi Robot</title>
-        <description>A 3D robot animation and my second ever 3D animation. Made for my university module Virtual Worlds and 3D Modelling (EL635) at the University of Kent.</description>
-        <video>
-            <![CDATA[
-            <div class="description-video">
-                <iframe width="1000" height="520" src="//www.youtube.com/embed/cdb6beaRru8" frameborder="0" allowfullscreen></iframe>
-            </div>
-            ]]>
-        </video>
-        <img>
-            <imgThumb>/img/work/3d/thumb/robot.jpg</imgThumb>
-            <imgLarge>/img/work/3d/large/robot.jpg</imgLarge>
-        </img>
-    </item>
-
     <item url="precise-pixels-v1">
         <icon>1</icon>
         <title>Precise Pixels v1</title>
@@ -382,6 +472,23 @@
         </img>
     </item>
 
+    <item url="spaceship-race">
+        <icon>4</icon>
+        <title>Spaceship Race</title>
+        <description>My first attempt at 3D Modelling and Animation. Made during my second year of university.</description>
+        <video>
+            <![CDATA[
+            <div class="description-video">
+                <iframe width="1000" height="520" src="//www.youtube.com/embed/Y1LEp_zfcfw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            ]]>
+        </video>
+        <img>
+            <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
+            <imgLarge>/img/work/3d/large/spaceshiprace.jpg</imgLarge>
+        </img>
+    </item>
+
     <item url="peking">
         <icon>1</icon>
         <title>Peking Restaurant</title>
@@ -402,33 +509,27 @@
         </img>
     </item>
 
-    <item url="spaceship-race">
-        <icon>4</icon>
-        <title>Spaceship Race</title>
-        <description>My first attempt at 3D Modelling and Animation. Made during my second year of university.</description>
-        <video>
-            <![CDATA[
-            <div class="description-video">
-                <iframe width="1000" height="520" src="//www.youtube.com/embed/Y1LEp_zfcfw" frameborder="0" allowfullscreen></iframe>
-            </div>
-            ]]>
-        </video>
-        <img>
-            <imgThumb>/img/work/3d/thumb/spaceshiprace.jpg</imgThumb>
-            <imgLarge>/img/work/3d/large/spaceshiprace.jpg</imgLarge>
-        </img>
-    </item>
-
     <item url="boniver">
         <icon>2</icon>
         <title>Bon Iver Typography</title>
-        <description>A poster inspired by the Bon Iver song Skinny Love.</description>
+        <description>A poster inspired by the Bon Iver song Skinny Love. "Cut out all the ropes and let me fall"</description>
         <technologies>Photoshop.</technologies>
         <img>
             <imgThumb>/img/work/graphic-design/thumb/boniver.jpg</imgThumb>
             <imgLarge>/img/work/graphic-design/large/boniver.jpg</imgLarge>
         </img>
     </item>
+
+<!--     <item url="computing-society">
+        <icon>2</icon>
+        <title>Computing Society Poster</title>
+        <description>A poster designed to advertise an event for Northampton Universities Computing Society"</description>
+        <technologies>Photoshop.</technologies>
+        <img>
+            <imgThumb>/img/work/graphic-design/thumb/computing-society.jpg</imgThumb>
+            <imgLarge>/img/work/graphic-design/large/computing-society.jpg</imgLarge>
+        </img>
+    </item> -->
 
 </xml>
 

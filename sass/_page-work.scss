@@ -36,14 +36,8 @@
     }
 }
 
-@media ($min_bp_c) {
-    #filter-btn {
-        display: none;
-    }
-
-    #filter-btn-categories {
-        display: block;
-    }
+#work-photography {
+    margin-top: 40px;
 }
 
 @media ($min_bp_a) {
@@ -52,5 +46,19 @@
             margin-right: 15px;
             width: auto;
         }
+    }
+
+    #work-photography {
+        margin-top: 0;
+    }
+}
+
+@media ($min_bp_c) {
+    #filter-btn {
+        display: none;
+    }
+
+    #filter-btn-categories {
+        display: block;
     }
 }
