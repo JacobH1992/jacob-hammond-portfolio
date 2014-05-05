@@ -1,19 +1,9 @@
 // Nav close on overlay
 var navOverlay    = document.getElementById('nav-overlay');
 var siteNavToggle = document.getElementById('site-nav-toggle');
-var siteNavBtn    = document.getElementById('site-nav-btn');
 
 navOverlay.addEventListener('click', function() {
     siteNavToggle.checked = false;
-});
-
-// js open and close for android browsers
-siteNavBtn.addEventListener('click', function(e) {
-    if(siteNavToggle.checked) {
-        siteNavToggle.checked = false;
-    } else {
-        siteNavToggle.checked = true;
-    }
 });
 
 // Nav colour change
