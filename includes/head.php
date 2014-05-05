@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://jacobhammond.co.uk"/>
 <meta property="og:image" content="http://jacobhammond.co.uk/img/touchicon300.png"/>
 <meta property="og:site_name" content="Jacob Hammond | Multimedia Designer"/>
-<meta property="og:description" content="Jacob Hammond is a Multimedia Designer from England, specialising in Website Design and Graphic Design."/>
+<meta property="og:description" content="Jacob Hammond is a Multimedia Designer from England specialising in Website Design and Graphic Design."/>
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
