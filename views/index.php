@@ -14,7 +14,7 @@
             <h1>About</h1>
             <h2 class="wow fadeIn" data-wow-delay=".25s">I am a recent <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a First Class Degree in Multimedia Technology & Design.</h2>
             <p class="half-margin wow fadeIn" data-wow-delay=".5s">I have just completed the 4th and final year of my degree. During that time I worked on many projects for my course, as a freelance designer and as Design & Production Intern for The Walt Disney Company in London.</p>
-            <p class="half-margin wow fadeIn" data-wow-delay=".75s">My passion for design continues to grow along with my skills in many areas of design and development. I am currently working as a User Interface & User Experience Designer for <a href="http://fuerteint.com/">Fuerte International</a> in London.</p>
+            <p class="half-margin wow fadeIn" data-wow-delay=".75s">My passion for design continues to grow along with my skills in many areas of design and development. I am currently working as a User Experience & User Interface Designer for <a href="http://fuerteint.com/" target="_blank">Fuerte International</a> in London.</p>
             <div class="section-content-wrapper">
                 <a href="/downloads/Jacob-Hammond-Multimedia-Designer-CV-2014.pdf" target="_blank" class="btn"><i class="ico-download"></i>DOWNLOAD MY CV</a>
             </div>
@@ -28,22 +28,22 @@
             <div class="list third-margin wow fadeIn" data-wow-delay=".5s">
                 <h3><i class="ico-keyboard"></i>Website Design</h3>
                 <h3><i class="ico-graphic"></i>Graphic Design</h3>
+                <h3><i class="ico-mobile"></i>Mobile App Design</h3>
                 <h3><i class="ico-art"></i>Digital Art</h3>
                 <h3><i class="ico-cube"></i>3D Design</h3>
-                <h3><i class="ico-mobile"></i>Mobile App Design</h3>
                 <h3><i class="ico-camera"></i>Photography</h3>
                 <h3><i class="ico-producer"></i>Website Production</h3>
             </div>
             <div class="list third-margin wow fadeIn"  data-wow-delay=".75s">
                 <h3><i class="ico-tools"></i>Tools</h3>
                 <ul>
-                    <li><p>Adobe Master Collection CS6</p></li>
+                    <li><p>Adobe Creative Cloud 2014</p></li>
                     <li><p>Sublime Text</p></li>
                     <li><p>Git / GitHub</p></li>
                     <li><p>Autodesk 3DS Max</p></li>
+                    <li><p>OmniGraffle</p></li>
                     <li><p>Microsoft Visual Studio</p></li>
                     <li><p>Eclipse</p></li>
-                    <li><p>Wordpress</p></li>
                     <li><p>Nikon DSLR</p></li>
                 </ul>
             </div>

@@ -9,7 +9,7 @@
 
     <section class="white">
         <div id="work-items" class="align-center section-padding">
-<!--         <div id="work-filter">
+        <div id="work-filter">
             <input type="checkbox" id="filter-btn-toggle" class="checkbox-hack" autocomplete="off"/>
             <label for="filter-btn-toggle" id="filter-btn" class="btn ico-"><div id="filter-btn-text">Filter</div></label>    
             <div id="filter-btn-categories">
@@ -21,7 +21,7 @@
                 <a href="?category=mobile-app" class="btn">Mobile App</a>
                 <a href="?category=production" class="btn">Production</a>
             </div>
-        </div> -->
+        </div>
             <?php
                 foreach($feed->item as $item):
                 getData($item);

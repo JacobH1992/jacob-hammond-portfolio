@@ -15,11 +15,11 @@
         margin-bottom: 0;
         @include adjust-font-size-to(18px);
         font-weight: 400;
-    text-overflow: ellipsis;
+        text-overflow: ellipsis;
     }
     p {
         @include adjust-font-size-to(16px);
-    text-overflow: ellipsis;
+        text-overflow: ellipsis;
     }
     i {
         margin-right: 0;
