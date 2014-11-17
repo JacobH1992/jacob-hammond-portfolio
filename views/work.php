@@ -32,7 +32,7 @@
                 
                 ?>
                     <a href="/work/<?= $url; ?>">
-                        <div class="work-item wow flipInX" data-wow-offset="0">
+                        <div class="work-item" data-wow-offset="0">
                             <img src="img/blank.gif" data-src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
                             <noscript><img src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
                             <div class="work-item-description">

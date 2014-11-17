@@ -106,7 +106,6 @@ nav {
 
 @media ($min_bp_a) {
     nav {
-        height: 100px;
         padding-right: 40px;
         ul {
             width: auto;
@@ -119,7 +118,7 @@ nav {
         li {
             padding: 0 40px;
             @include horizontal-list-item(20px, left);
-            line-height: 100px;
+            line-height: 65px;
             a {
                 padding: 5px 5px;
             }
@@ -130,7 +129,7 @@ nav {
         float: left;
         padding: 0 40px;
         h1 {
-            line-height: 106px;
+            line-height: 70px;
         }
     }
 

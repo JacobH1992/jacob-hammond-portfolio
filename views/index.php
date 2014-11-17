@@ -12,9 +12,9 @@
 <a id="about"></a>
         <div class="align-center section-padding">
             <h1>About</h1>
-            <h2 class="wow fadeIn" data-wow-delay=".25s">I am a recent <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a First Class Degree in Multimedia Technology & Design.</h2>
-            <p class="half-margin wow fadeIn" data-wow-delay=".5s">I have just completed the 4th and final year of my degree. During that time I worked on many projects for my course, as a freelance designer and as Design & Production Intern for The Walt Disney Company in London.</p>
-            <p class="half-margin wow fadeIn" data-wow-delay=".75s">My passion for design continues to grow along with my skills in many areas of design and development. I am currently working as a User Experience & User Interface Designer for <a href="http://fuerteint.com/" target="_blank">Fuerte International</a> in London.</p>
+            <h2 class="wow fadeIn" data-wow-delay=".25s">I am a <i class="ico-graduate ico--no-margin"></i> of the University of Kent in Canterbury, England with a First Class Degree in Multimedia Technology & Design.</h2>
+            <p class="half-margin wow fadeIn" data-wow-delay=".5s">I’m an all-rounder with skills in UX/UI design, web design, development, graphic design, 3D design, photography and production. I have worked on many projects whilst at uni, with my freelance design company and as a Design & Production Intern for The Walt Disney Company in London.</p>
+            <p class="half-margin wow fadeIn" data-wow-delay=".75s">Recently I have focussed on designing mobile experiences, whether it be native apps for iOS, Android and Windows Phone or web apps. I am currently working as a User Experience & User Interface Designer for <a href="http://fuerteint.com/" target="_blank">Fuerte International</a> in London.</p>
             <div class="section-content-wrapper">
                 <a href="/downloads/Jacob-Hammond-Multimedia-Designer-CV-2014.pdf" target="_blank" class="btn"><i class="ico-download"></i>DOWNLOAD MY CV</a>
             </div>
@@ -79,7 +79,7 @@
 
                 ?>  
                     <a href="work/<?= $url; ?>">
-                        <div class="work-item third wow flipInX">
+                        <div class="work-item third">
                             <img src="img/blank.gif" data-src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>" class="lazy"/>
                             <noscript><img src="<?= $imgThumb; ?>" alt="<?= $title; ?>" title="<?= $title; ?>"/></noscript>
                             <div class="work-item-description">

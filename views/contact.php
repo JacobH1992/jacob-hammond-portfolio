@@ -8,11 +8,11 @@
 
 <main>
 
-    <section class="white">
+<!--     <section class="white">
         <div class="align-center section-padding wow slideInLeft">
             <h2>As a recent graduate I am keen to find opportunities that will help further my skill set and career.</h2>
             <a href="/downloads/Jacob-Hammond-Multimedia-Designer-CV-2014.pdf" target="_blank" class="btn wow fadeIn" data-wow-delay=".25s"><i class="ico-download"></i>DOWNLOAD MY CV</a>
         </div>
     </section>
-
+ -->
 </main>
