@@ -1,5 +1,5 @@
 <?php
-    $feed = simplexml_load_file('xml/work.xml');
+    $feed = @simplexml_load_file('xml/work.xml');
     
     function getData($item) {
         global $categoryName, $subTitle, $title, $imgThumb, $url, $icon, $type, $description, 
@@ -49,7 +49,7 @@
     }
 
     function getDetails($detailsUrl) {
-        $feed   = simplexml_load_file('xml/work.xml');
+        $feed   = @simplexml_load_file('xml/work.xml');
 
         $item   = $feed->xpath("//item[@url='$detailsUrl']");
 

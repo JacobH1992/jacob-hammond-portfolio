@@ -23,6 +23,7 @@
             </div>
         </div>
             <?php
+            
                 foreach($feed->item as $item):
                 getData($item);
                 

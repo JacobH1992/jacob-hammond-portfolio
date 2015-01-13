@@ -1106,11 +1106,13 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
 }
 
 .description-image--web {
   margin-top: 60px;
+  max-height: 830px;
+  overflow: hidden;
 }
 
 .description-image--mobile {

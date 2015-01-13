@@ -1,5 +1,95 @@
 <xml>
 
+    <item url="london-art-hackathon">
+        <icon>1</icon>
+        <title>London Art Hackathon</title>
+        <description>
+             A quick website design and build for a Hackathon in London supported by .
+             <![CDATA[
+             <a target="_blank" href="https://fuerteint.com/">Fuerte International</a>
+            ]]>
+            .
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS with SASS & Compass,</li>
+                <li>Jquery.</li>
+            ]]>
+        </technologies>
+        <link>http://londonarthack.co.uk/</link>
+        <img>
+            <imgThumb>/img/work/web/thumb/londonarthack.png</imgThumb>
+            <imgLarge>https://d13yacurqjgara.cloudfront.net/users/325810/screenshots/1849080/attachments/309766/hackathon.png</imgLarge>
+        </img>
+    </item>    
+
+    <item url="bluebirds">
+        <icon>3</icon>
+        <title>Bluebirds Illustration</title>
+        <description>
+            An illustration of two Bluebirds sitting on a branch.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>Illustrator,</li>
+                <li>Photoshop.</li>
+            ]]>
+        </technologies>
+        <img>
+            <imgThumb>/img/work/digital-art/thumb/bluebirds.jpg</imgThumb>
+            <imgLarge>https://d13yacurqjgara.cloudfront.net/users/325810/screenshots/1813958/attachments/300266/bluebirds-final.png</imgLarge>
+        </img>
+    </item>
+
+    <item url="elevator-app-dev">
+        <icon>1</icon>
+        <title>Elevator App Development</title>
+        <description>
+             I helped design and fully coded the website for Elevator App Development.
+             <![CDATA[
+             <br/><br/>Article about the website's launch:
+             <a target="_blank" href="https://medium.com/@Elevatorappdev/website-launch-362bc17c9787">https://medium.com/@Elevatorappdev/website-launch-362bc17c9787</a>
+            ]]>
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS with SASS,</li>
+                <li>Javascript & Jquery,</li>
+                <li>XML,</li>
+                <li>PHP.</li>
+            ]]>
+        </technologies>
+        <link>http://elevatorappdevelopment.com/</link>
+        <img>
+            <imgThumb>/img/work/web/thumb/ead.png</imgThumb>
+            <imgLarge>https://d13yacurqjgara.cloudfront.net/users/325810/screenshots/1813223/attachments/300062/ead-big.png</imgLarge>
+        </img>
+    </item>
+
+    <item url="fuerte-int">
+        <icon>1</icon>
+        <title>Fuerte International Website</title>
+        <description>
+             I designed and coded from scratch the new website for Fuerte International. Built using the latest responsive design - mobile first principles, HTML5, SASS and an XML driven PHP content management system.
+        </description>
+        <technologies>
+            <![CDATA[
+                <li>HTML,</li>
+                <li>CSS with SASS,</li>
+                <li>Javascript & Jquery,</li>
+                <li>XML,</li>
+                <li>PHP.</li>
+            ]]>
+        </technologies>
+        <link>http://fuerteint.com/</link>
+        <img>
+            <imgThumb>/img/work/web/thumb/fuerteint.png</imgThumb>
+            <imgLarge>https://d13yacurqjgara.cloudfront.net/users/325810/screenshots/1813252/attachments/300071/fuerteweb-big.png</imgLarge>
+        </img>
+    </item>
+
     <item url="project-titan">
         <icon>2</icon>
         <title>Project Titan</title>
